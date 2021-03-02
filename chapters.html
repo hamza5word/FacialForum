@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>ShowME: Report Viewer</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+<!-- HEADER -->
+<header id="header">
+	<!-- NAV -->
+	<div id="nav">
+		<!-- Top Nav -->
+		<div id="nav-top">
+			<div class="container">
+				<!-- social -->
+				<ul class="nav-social">
+					<li><a href="https://www.facebook.com/bicalool.ismaili"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="mailto:alaouiismaili28@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				<!-- /social -->
+
+				<!-- logo -->
+				<div class="nav-logo">
+					<a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+				</div>
+				<!-- /logo -->
+
+				<!-- search & aside toggle -->
+				<div class="nav-btns">
+					<button class="aside-btn"><i class="fa fa-bars"></i></button>
+					<div id="nav-search">
+						<form>
+							<input class="input" name="search" placeholder="Enter your search...">
+						</form>
+						<button class="nav-close search-close">
+							<span></span>
+						</button>
+					</div>
+				</div>
+				<!-- /search & aside toggle -->
+			</div>
+		</div>
+		<!-- /Top Nav -->
+
+		<!-- Main Nav -->
+		<div id="nav-bottom">
+			<div class="container">
+				<!-- nav -->
+				<ul class="nav-menu">
+					<li class="has-dropdown">
+						<a href="index.html">Introduction</a>
+						<div class="dropdown">
+							<div class="dropdown-body">
+								<ul class="dropdown-list">
+									<li><a href="index.html#python">Python</a></li>
+									<li><a href="index.html#opencv">OpenCV</a></li>
+									<li><a href="index.html#facial">Facial</a></li>
+									<li><a href="index.html#navigate">Navigation</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="has-dropdown megamenu">
+						<a href="conceptions.html">Conception</a>
+						<div class="dropdown tab-dropdown">
+							<div class="row">
+								<div class="col-md-2">
+									<ul class="tab-nav">
+										<li class="active"><a data-toggle="tab" href="#tab1">Conception Générale</a></li>
+										<li><a data-toggle="tab" href="#tab2">détection et Reconaissance</a></li>
+										<li><a data-toggle="tab" href="#tab3">Filtres et Effets</a></li>
+										<li><a data-toggle="tab" href="#tab4">Gestion Media</a></li>
+										<li><a data-toggle="tab" href="#tab5">Sécurité</a></li>
+									</ul>
+								</div>
+								<div class="col-md-10">
+									<div class="dropdown-body tab-content">
+										<!-- tab1 -->
+										<div id="tab1" class="tab-pane fade in active">
+											<h2>Diagrammes du Conception Générale</h2>
+											<div class="row">
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#u1"><img src="./img/post-10.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#u1">Diagramme de cas d'utilisation</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#s1"><img src="./img/post-13.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#s1">Diagramme de Séquences</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#c1"><img src="./img/post-12.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#c1">Diagramme de classes</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+											</div>
+										</div>
+										<!-- /tab1 -->
+
+										<!-- tab2 -->
+										<div id="tab2" class="tab-pane fade in">
+											<h2>Diagrammes du System de détection et Reconaissance</h2>
+											<div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u2"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u2">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s2"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s2">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c2"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c2">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+											</div>
+										</div>
+										<!-- /tab2 -->
+
+										<!-- tab3 -->
+										<div id="tab3" class="tab-pane fade in">
+											<h2>Diagrammes du Système des Filtres et Effets</h2>
+											<div class="row">
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#u3"><img src="./img/post-10.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#u3">Diagramme de cas d'utilisation</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#s3"><img src="./img/post-13.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#s3">Diagramme de Séquences</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#c3"><img src="./img/post-12.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#c3">Diagramme de classes</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+											</div>
+										</div>
+										<!-- /tab3 -->
+
+                                        <!-- tab4 -->
+                                        <div id="tab4" class="tab-pane fade in">
+                                            <h2>Diagrammes de Gestion Media</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u4"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u4">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s4"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s4">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c4"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c4">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab4 -->
+
+                                        <!-- tab5 -->
+                                        <div id="tab5" class="tab-pane fade in">
+                                            <h2>Diagrammes de System Sécurité</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u5"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u5">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s5"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s5">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c5"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c5">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab5 -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="has-dropdown megamenu">
+						<a href="chapters.html" style="color: #259799">Les Chapitres</a>
+						<div class="dropdown">
+							<div class="dropdown-body">
+								<div class="row">
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapitre 1 La Plateforme</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#gc">Conception</a></li>
+											<li><a href="#p1">Interface Principale</a></li>
+											<li><a href="#p2">Zone Menu Principal</a></li>
+											<li><a href="#p3">Zone Visuelle</a></li>
+											<li><a href="#p4">Zone Configuration</a></li>
+                                            <li><a href="#p5">Personalisation d'interface</a></li>
+                                            <li><a href="#navigate">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapitre 2 La Vision Machine</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#fc">Conception</a></li>
+											<li><a href="#det">détection</a></li>
+											<li><a href="#rec">Reconaissance</a></li>
+											<li><a href="#navigate2">Navigation</a></li>
+										</ul>
+										<h4 class="dropdown-heading">Chapter 3 Filtres et Effets</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#sc">Conception</a></li>
+											<li><a href="#fil">Filtres</a></li>
+											<li><a href="#eff">Effets</a></li>
+											<li><a href="#navigate3">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapter 4 Gestion du Media</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#tc">Conception</a></li>
+											<li><a href="#gp">Gestion des Photos</a></li>
+											<li><a href="#rv">Gestion des Vidéos</a></li>
+											<li><a href="#navigate4">Navigation</a></li>
+										</ul>
+										<h4 class="dropdown-heading">Chapter 5 Sécurité</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#lc">Conception</a></li>
+											<li><a href="#srm">Mode Entregistrement Intelligent</a></li>
+											<li><a href="#rl">Connexion avec Reconaissance Faciale</a></li>
+											<li><a href="#navigate5">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading" style="color: #00adf2;">Technologies</h4>
+										<ul class="dropdown-list">
+											<li><a href="https://www.python.org/">Python</a></li>
+											<li><a href="https://opencv.org/">OpenCV</a></li>
+											<li><a href="https://www.mysql.com/fr/">MySQL</a></li>
+											<li><a href="https://php.net/">PHP</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="index.html#downrapp">Téléchargements</a></li>
+				</ul>
+				<!-- /nav -->
+			</div>
+		</div>
+		<!-- /Main Nav -->
+
+		<!-- Aside Nav -->
+		<div id="nav-aside">
+			<ul class="nav-aside-menu">
+				<li class="has-dropdown"><a>Introduction</a>
+					<ul class="dropdown">
+						<li><a href="index.html#python">Python</a></li>
+						<li><a href="index.html#opencv">OpenCV</a></li>
+						<li><a href="index.html#facial">Facial</a></li>
+						<li><a href="index.html#navigate">Navigation</a></li>
+					</ul>
+				</li>
+				<li class="has-dropdown"><a>Conception</a>
+					<ul class="dropdown">
+						<li class="has-dropdown"><a>Conception Générale</a>
+							<ul class="dropdown">
+								<li><a href="conceptions.html#u1">Diagramme de Cas d'Utilisation</a></li>
+								<li><a href="conceptions.html#s1">Diagramme de Séquences</a></li>
+								<li><a href="conceptions.html#c1">Diagramme de Classe</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>détection & Reconaissance</a>
+							<ul class="dropdown">
+                                <li><a href="conceptions.html#u2">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="conceptions.html#s2">Diagramme de Séquences</a></li>
+                                <li><a href="conceptions.html#c2">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Filtres & Effets</a>
+							<ul class="dropdown">
+                                <li><a href="conceptions.html#u3">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="conceptions.html#s3">Diagramme de Séquences</a></li>
+                                <li><a href="conceptions.html#c3">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Gestion Media</a>
+							<ul class="dropdown">
+                                <li><a href="conceptions.html#u4">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="conceptions.html#s4">Diagramme de Séquences</a></li>
+                                <li><a href="conceptions.html#c4">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Sécurité</a>
+							<ul class="dropdown">
+                                <li><a href="conceptions.html#u5">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="conceptions.html#s5">Diagramme de Séquences</a></li>
+                                <li><a href="conceptions.html#c5">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-dropdown"><a>Les Chapires</a>
+					<ul class="dropdown">
+						<li class="has-dropdown"><a>Chapitre 1 La Plateforme</a>
+							<ul class="dropdown">
+								<li><a href="#ch1">Explore</a></li>
+								<li><a href="conceptions.html#gc">Conception</a></li>
+								<li><a href="#p1">Interface Principale</a></li>
+								<li><a href="#p2">Zone Menu Principal</a></li>
+								<li><a href="#p3">Zone Visuelle</a></li>
+								<li><a href="#p4">Zone Configuration</a></li>
+                                <li><a href="#p5">Personalisation d'interface</a></li>
+                                <li><a href="#navigate">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapitre 2 La Vision Machine</a>
+							<ul class="dropdown">
+								<li><a href="#ch2">Explore</a></li>
+								<li><a href="conceptions.html#fc">Conception</a></li>
+								<li><a href="#det">détection</a></li>
+								<li><a href="#rec">Reconaissance</a></li>
+								<li><a href="#navigate2">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 3 Filtres et Effets</a>
+							<ul class="dropdown">
+								<li><a href="#ch3">Explore</a></li>
+								<li><a href="conceptions.html#sc">Conception</a></li>
+								<li><a href="#fil">Filtres</a></li>
+								<li><a href="#eff">Effets</a></li>
+								<li><a href="#navigate3">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 4 Gestion du Media</a>
+							<ul class="dropdown">
+								<li><a href="#ch4">Explore</a></li>
+								<li><a href="conceptions.html#tc">Conception</a></li>
+								<li><a href="#gp">Gestion des Photos</a></li>
+								<li><a href="#rv">Gestion des Vidéos</a></li>
+								<li><a href="#navigate4">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 5 Sécurité</a>
+							<ul class="dropdown">
+								<li><a href="#ch5">Explore</a></li>
+								<li><a href="conceptions.html#lc">Conception</a></li>
+								<li><a href="#srm">Mode Entregistrement Intelligent</a></li>
+								<li><a href="#rl">Connexion avec Reconaissance Faciale</a></li>
+								<li><a href="#navigate5">Navigation</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="index.html#downrapp">Téléchargements</a></li>
+			</ul>
+			<button class="nav-close nav-aside-close"><span></span></button>
+		</div>
+		<!-- /Aside Nav -->
+	</div>
+	<!-- /NAV -->
+
+	<!-- PAGE HEADER -->
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 text-center">
+					<h1 class="text-uppercase">LES CHAPITRES</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /PAGE HEADER -->
+</header>
+<!-- /HEADER -->
+
+<!-- section -->
+<div class="section">
+	<!-- chapter 1 FINISHED -->
+	<div id="ch1" class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+
+				<!-- post content -->
+				<div class="section-row">
+					<h1 style="text-align: center">CHAPITRE 1 LA PLATEFORME</h1>
+					<hr>
+                    <h3 id="p1">Interface Principale</h3>
+					<p style="text-align: justify">L'interface de l'application est composée de 3 zones principales, la zone supérieure ou la zone du menu principal, la zone située à gauche correspondant à la zone visuelle et la zone située à droite permettant d'afficher les options et les informations.</p>
+					<figure>
+						<img src="./img/interface.gif" alt="">
+					</figure>
+					<h3 id="p2">La Zone du Menu Principale</h3>
+					<p style="text-align: justify;">Le Menu principle se compose de 5 outils de gestion.</p>
+					<figure>
+						<img src="./img/ub1.jpg" alt="">
+					</figure>
+					<hr>
+					<h4><b>1 Open : </b> Sert à Configurer les données et manipuler les informations  et se compose des options suivantes:</h4>
+					<figure class="pull-right">
+						<img src="./img/ub2.jpg" alt="">
+					</figure>
+					<p>Capture : Sert à prendre des photos </p>
+					<p>Record : Sert a enregistrer des vidéos manuellement </p>
+					<p>Configure training : Sert a gérer des profils et les données concernant la reconnaissance faciale</p>
+					<p>Train Data : Bouton rapide pour la mise à jour des profils </p>
+					<p>Image Processor : Éditeur et analyseur des images enregistrées par l'utilisateur offre plusieurs taches comme la détection, reconnaissance, effets, filtres ...</p>
+					<p>Configure segmenter : Éditeur secondaire capable de détecter, reconnaitre les couleurs dans une image ou dans un cadre et les segmenter </p>
+					<p>Quick segmenting : Bouton rapide pour effectuer une segmentation ou cadre principale </p>
+					<hr>
+					<h4><b>2 Control detection : </b> Les actions qui peuvent être execulter quand le moteur détecte un objet:</h4>
+					<figure class="pull-right">
+						<img src="./img/ub3.jpg" alt="">
+					</figure>
+					<p>Smart Recording : Activer le mode enregistrement intelligent</p>
+					<p>Hand Capture : Sert a prendre une photo lorsque le moteur détecte la main d'utilisateur</p>
+					<hr>
+					<h4><b>3 Navigate : </b> Configuration d'affichage et gestion des données locales d'utilisateurs</h4>
+					<figure class="pull-right">
+						<img src="./img/ub4.jpg" alt="">
+					</figure>
+					<p>Themes & Display : Réglage d'affichage, choisir un thème...</p>
+					<p>Video Player : Lire les vidéos enregistrées</p>
+					<p>Data Set : Afficher les utilisateurs reconnus par le system de reconnaissance faciale</p>
+					<p>Clear Data Set : Supprimer les données de reconnaissance faciale de tous les utilisateurs</p>
+					<p>Clear Profile Data Set : Supprimer les données de reconnaissance faciale d'un utilisateur par son identificateur</p>
+					<p>Show Current User : Afficher les informations concernant l'utilisateur courent</p>
+					<p>Show Logs History : Trace la confiance de la reconnaissance pour les utilisateurs actuels</p>
+					<hr>
+					<h4><b>4 Remote : </b> Effectuer une connexion au serveur et gérer les utilisateurs</h4>
+					<figure class="pull-right">
+						<img src="./img/ub5.jpg" alt="">
+					</figure>
+					<p>Remote Login : Authentification automatique par reconnaissance faciale</p>
+					<p>Access Facial Web App : Accéder au site web d'authentification</p>
+					<p>Initialise Procedure : Initialisation d'état de reconnaissance</p>
+					<p>Show Users Password : Afficher les informations concernant les mots de passe des utilisateurs</p>
+					<p>Regenerate Passwords : Donner des mots de passe générés par l'application à tous les utilisateurs</p>
+					<hr>
+					<h4><b>5 Help : </b> Centre d'aide concernant l'utilisation de l'application</h4>
+					<figure class="pull-right">
+						<img src="./img/ub6.jpg" alt="">
+					</figure>
+					<p>Tipps : Lancer l'interface d'aide</p>
+					<p>Hotkeys : Afficher l'aide sur les raccourcies de clavier</p>
+					<p>About : Visiter le site web d'application</p>
+					<br>
+					<h3 id="p3">La Zone Visuelle</h3>
+					<p style="text-align: justify;">La zone Visuelle est le cadre principal qui interagit avec
+						l'utilisateur et se compose de 3 panneaux principaux</p>
+					<figure>
+						<img src="./img/zv.jpg" alt="">
+					</figure>
+					<hr>
+					<h4><b>1 Panneaux à gauche : </b> Menu graphique à gauche:</h4>
+					<br>
+					<figure class="pull-left">
+						<img src="./img/capture%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de capturer les photos de l'utilisateur</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/record%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de activer l'enregistrement des vidéos</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/train%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de configurer le système de reconnaissance faciale</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/dataset%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable d'afficher les utilisateurs qui sont reconnus par le système</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/history%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de suivre les valeurs de confiance pour la reconnaissance faciale</p>
+					<br>
+					<h4><b>2 Panneaux à droite : </b> Menu graphique à droite:</h4>
+					<br>
+					<figure class="pull-left">
+						<img src="./img/Segment%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de lancer l'editeur principale des images</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/User%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable d'afficher l'utilisateur courrent</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/themes%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de changer les options de design</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/login%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de lancer le system d'authentification automatique</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/exit%20res2.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de quitter l'application</p>
+					<br><br><br>
+					<h4><b>3 Panneaux au centre : </b> Cadre principale:</h4>
+					<br>
+					<figure class="pull-left">
+						<img src="./img/ON%20res.png" alt="">
+					</figure>
+					<br>
+					<p>Bouton capable de controller le status du Moteur</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/capt1.png" alt="">
+					</figure>
+					<br>
+					<p>Indicateur de détection faciale</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/capt2.png" alt="">
+					</figure>
+					<br>
+					<p>Indicateur de reconnaissance faciale</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/capt3.png" alt="">
+					</figure>
+					<br>
+					<p>Indicateur des valeurs de confidence du system de reconnaissance</p>
+					<hr>
+					<p>Au centre, nous avons la visionneuse de la webcam où les tâches sont appliquées</p>
+					<h3 id="p4">La Zone du Configuration</h3>
+					<p>Configuration des options de détection et une vue de la console</p>
+					<br>
+					<figure class="pull-left">
+						<img src="./img/face.jpg" alt="">
+					</figure>
+					<br>
+					<p>Indicateur lumineux des détections</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/opt.jpg" alt="">
+					</figure>
+					<br>
+					<p>Menu des options de détection</p>
+					<hr>
+					<p>le cadre central sert au suivi des bords de l'objet</p>
+					<hr>
+					<figure class="pull-left">
+						<img src="./img/console%20res.png" alt="">
+					</figure>
+					<br>
+					<p>le cadre inférieur sert à afficher les messages de la console</p>
+					<br>
+					<p>la plate-forme système est conçue par tkinter de manière à offrir une meilleure utilisation de l'application
+					, La plate-forme est facile à utiliser pour effectuer les tâches. Nous commencerons par les tâches
+						de Computer Vision au chapitre suivant.</p>
+                    <h3 id="p5">Personalisation d'interface</h3>
+                    <p style="text-align: justify">Vous pouvez modifier l'apparence de l'interface du programme en
+                        accédant au gestionnaire de thèmes, à partir du menu > Navigate > Themes & Display ou de
+                        la zone de vision.</p>
+                    <figure>
+                        <img src="img/thm.jpg">
+                    </figure>
+				</div>
+				<!-- /post content -->
+				<a href="#navigate" style="text-align: right;">Vers Navigation</a><br>
+				<a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+				<a href="#navigate2" style="text-align: right;">Aller vers Chapitre 2</a><br>
+				<a href="#navigate3" style="text-align: right;">Aller vers Chapitre 3</a><br>
+				<a href="#navigate4" style="text-align: right;">Aller vers Chapitre 4</a><br>
+				<a href="#navigate5" style="text-align: right;">Aller vers Chapitre 5</a><br>
+				<a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+				<a href="#" style="text-align: right;">Vers Le Haut</a><br>
+				<br>
+			</div>
+
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#ch1">CHAPITRE 1<span>1</span></a></li>
+							<li><a href="conceptions.html#gc" style="margin-left: 22px;">CONCEPTION<span>1.1</span></a></li>
+                            <li><a href="#p1" style="margin-left: 22px;">INTERFACE PRINCIPALE<span>1.2</span></a></li>
+                            <li><a href="#p2" style="margin-left: 22px;">ZONE MENU PRINCIPAL<span>1.3</span></a></li>
+                            <li><a href="#p3" style="margin-left: 22px;">ZONE VISUELLE<span>1.4</span></a></li>
+							<li><a href="#p4" style="margin-left: 22px;">ZONE CONFIGURATION<span>1.5</span></a></li>
+                            <li><a href="#p5" style="margin-left: 22px;">PERSONALISATION D'INTERFACE<span>1.6</span></a></li>
+							<li><a href="vids/PLATFORM/PLATFORM.html" style="margin-left: 22px;">DEMONSTRATION VIDéO<span>1.7</span></a></li>
+							<li><a href="#navigate2">CHAPITRE 2<span>2</span></a></li>
+							<li><a href="#navigate3">CHAPITRE 3<span>3</span></a></li>
+							<li><a href="#navigate4">CHAPITRE 4<span>4</span></a></li>
+							<li><a href="#navigate5">CHAPITRE 5<span>5</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+
+				<!-- More Sources -->
+				<div>
+					<div class="n4">
+						<a class="natt4" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjL2vOH17PiAhWD6qQKHQUCDkQQFjAAegQIAxAB&url=https%3A%2F%2Fpython-django.dev%2Fpage-tkinter-interface-graphique-python-tutoriel&usg=AOvVaw0zeoGGOeyDrpOF2C4SobDK">Conervez Tkinter</a><hr>
+						<p>Apprendre à créer des interfaces graphiques en python avec tkinter - cours tutoriel langage
+							de programmation python.</p>
+					</div>
+					<div class="n4">
+						<a class="natt4" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwir15e-17PiAhWisaQKHdRXD4YQFjAAegQIARAB&url=https%3A%2F%2Fwww.pyimagesearch.com%2F2016%2F05%2F23%2Fopencv-with-tkinter%2F&usg=AOvVaw2EmMBV1OT65t8WUF9m6ZXe">Tkinter X OpenCV</a><hr>
+						<p>Didacticiel: lisez une image avec OpenCV puis affichez-la dans une fenêtre Tkinter à l'aide
+							de Python.</p>
+					</div>
+					<hr><br><br>
+					<h3 style="text-align: center">Apprendre les éléments d'interface Tkinter</h3>
+					<div class="n4">
+						<a class="natt4" href="https://www.tutorialspoint.com/python/tk_menu.htm">Création d'un Menu</a><hr>
+						<p>L'objectif de ce widget est de nous permettre de créer toutes sortes de menus utilisables
+							par nos applications. La fonctionnalité principale permet de créer trois types de menus:
+							contextuel, supérieur et inférieur.
+						</p>
+					</div>
+					<div class="n4">
+						<a class="natt4" href="https://www.tutorialspoint.com/python/tk_button.htm">Création des Boutons</a><hr>
+						<p>Le widget Bouton permet d’afficher des boutons dans votre application.
+						</p>
+					</div>
+					<div class="n4">
+						<a class="natt4" href="https://www.tutorialspoint.com/python/tk_frame.htm">Création des Cadres</a><hr>
+						<p>Le widget Frame est utilisé en tant que widget conteneur pour organiser d'autres widgets.
+						</p>
+					</div>
+				</div>
+				<div class="n4">
+					<a class="natt4" href="https://www.tutorialspoint.com/python/tk_label.htm">Création des Labels</a><hr>
+					<p>Le widget Label est utilisé pour fournir une légende à une ligne pour les autres widgets.
+						Il peut aussi contenir des images.
+					</p>
+				</div>
+				<div class="n4">
+					<a class="natt4" href="https://www.tutorialspoint.com/python/tk_entry.htm">Création des Zones de Textes</a><hr>
+					<p>Le widget Entry est utilisé pour afficher un champ de texte d'une seule ligne permettant
+						d'accepter les valeurs d'un utilisateur.
+					</p>
+				</div>
+				<div class="n4">
+					<a class="natt4" href="https://www.tutorialspoint.com/python/python_gui_programming.htm">Voir Plus...</a><hr>
+					<p>
+					</p>
+				</div>
+				<br><br><br><br>
+				<div class="n4">
+					<a class="natt4" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwj-hI6N77PiAhUHzKQKHXTODdEQFjABegQIChAF&url=https%3A%2F%2Fblog.resellerclub.com%2Fthe-6-best-python-gui-frameworks-for-developers%2F&usg=AOvVaw3OAeQv7UWIi2u0Y809LfzH">Les 6 meilleurs frameworks d'interface graphique Python pour les développeurs</a><hr>
+					<p>1. Kivy. Kivy is an OpenGL ES 2 accelerated framework for the creation of new user interfaces...</p>
+					<p>2. PyQT. PyQT is one of the favoured cross-platform Python bindings implementing the Qt library for the Qt (owned by Nokia) application development framework. ... </p>
+					<p>3. Tkinter. ... </p>
+					<p>4. WxPython. ... </p>
+					<p>5. PyGUI. ... </p>
+					<p>6. PySide. ...</p>
+				</div>
+				<br><br><br><br><br><br>
+				<img style="margin-left: 18px" src="img/eff1.gif">
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<h3 style="text-align: center">Paneaux des Indicateurs</h3>
+				<img src="img/capts.png"><br><br><br><br><br>
+				<h3 style="text-align: center">Paneaux des Filtres/Effects</h3>
+				<img src="img/fltrs.png">
+				<br><br><br><br><br><br>
+				<h3 style="text-align: center">Zone des options de détections</h3>
+				<img src="img/zv3.jpg">
+				<br><br>
+                <h3 style="text-align: center">TIPPS GIVER</h3>
+                <p style="text-align: justify">La plate-forme de Facial est très facile à utiliser, mais
+                    apprenez à mieux l’utiliser à l’aide de la fenêtre Tipps Giver au démarrage.</p>
+                <img src="img/tipp.jpg">
+                <hr>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div ><hr>
+	<!-- chapter 2 FINISHED -->
+	<div id="ch2" class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+				<!-- post content -->
+				<div class="section-row">
+					<h1 style="text-align: center">CHAPITRE 2 LA VISION MACHINE</h1>
+					<hr>
+                    <figure class="pull-right">
+                        <img src="img/vm.png" alt="">
+                    </figure>
+                    <p style="text-align: justify">C’est un des indices de la modernité que l’art, l’approche
+                        esthétique, n’aient pas, plus, de place assignée dans la société contemporaine. Nantes, ville
+                        de Jules Verne, consacre une exposition aux transformations de la vision telles que diverses
+                        conduites artistiques les ont perçues, interprétées et prises en charge depuis une centaine
+                        d’années. L’exposition et le livre qui l’explicite ont pour épicentre l’œuvre du viennois
+                        américain Frederick Kieslu, actif entre 1920 et 1960. Accueilli à la Columbia University de
+                        New York, il y fonde un laboratory for design correlation. Dans une recherche constante pour
+                        donner forme aux échanges interactifs entre nature et culture, il ne cesse d’élaborer des
+                        dispositifs de passage à l’acte. La Vision Machine de 1942 donne titre et orientation à
+                        l’exposition entière. Les termes, en français, seraient “machine à voir” : la perception,
+                        explique F. Kieslu, aboutit moins à représenter des objets qu’elle ne consiste en une suite
+                        de transferts de forces vers la structure interne du corps, où se parachève la formation de
+                        l’image. Il s’agit plus de sensibiliser à un processus que d’aboutir à un résultat vérifiable,
+                        différence entre l’investigation artistique et la recherche scientifique.</p>
+                    <h3 id="det">La détection avec OpenCV</h3>
+                    <p style="text-align: justify">La détection d'objet avec openCV est l'un des puissants outils
+                        d'analyse d'objets, tels que des images, des vidéos, un frame de caméra en temps réel.</p>
+                    <h4 id="seg">1 Segmentation d'image</h4>
+                    <p style="text-align: justify">La segmentation d'image est une opération de traitement d'images qui
+                        a pour but de rassembler des pixels entre eux suivant des critères pré-définis. Les pixels sont
+                        ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut
+                        s'agir par exemple de séparer les objets du fond.</p>
+                    <h5>1.1 Quels sont les espaces de couleur?</h5>
+                    <p style="text-align: justify">Dans l'espace colorimétrique le plus courant, RVB (Rouge Vert Bleu),
+                        les couleurs sont représentées par leurs composants rouge, vert et bleu. En termes plus
+                        techniques, RVB décrit une couleur comme un tuple de trois composants. Chaque composant peut
+                        prendre une valeur comprise entre 0 et 255, où le tuple (0, 0, 0) représente le noir et
+                        (255, 255, 255) le blanc.</p>
+                    <p style="text-align: justify">Voici quelques exemples de couleurs RVB supplémentaires:</p>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Couleur</th>
+                            <th>Valeur RVB</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Rouge</td>
+                            <td>255, 0, 0</td>
+                        </tr>
+                        <tr>
+                            <td>Orange</td>
+                            <td>255, 128, 0</td>
+                        </tr>
+                        <tr>
+                            <td>Rose</td>
+                            <td>255, 153, 255</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: justify">Le RVB est l’un des cinq principaux modèles d’espace colorimétrique
+                        comportant chacun de nombreuses ramifications. Il y a tellement d'espaces colorimétriques, car
+                        ils sont utiles à des fins différentes.</p>
+                    <p style="text-align: justify">CMJN est utile dans le monde de l’impression car il décrit les
+                        combinaisons de couleurs nécessaires pour produire une couleur à partir d’un fond blanc.
+                        Alors que le tuple 0 en RVB est noir, en CMYK, le tuple 0 est en blanc. Nos imprimantes
+                        contiennent des cartouches d'encre cyan, magenta, jaune et noir.</p>
+                    <p style="text-align: justify">Dans certains types de domaines médicaux, les lames de verre montées
+                        avec des échantillons de tissus colorés sont numérisées et enregistrées sous forme d'images.
+                        Ils peuvent être analysés dans l'espace HED, une représentation des saturations des types de
+                        taches (hématoxyline, éosine et DAB) appliquées au tissu d'origine.</p>
+                    <p style="text-align: justify">HSV et HSL sont des descriptions de teinte, saturation et
+                        luminosité / luminance, particulièrement utiles pour identifier le contraste dans les images.
+                        Ces espaces colorimétriques sont fréquemment utilisés dans les outils de sélection des couleurs
+                        dans les logiciels et pour la conception Web.</p>
+                    <p style="text-align: justify">En réalité, la couleur est un phénomène continu, ce qui signifie
+                        qu'il existe un nombre infini de couleurs. Les espaces colorimétriques, cependant, représentent
+                        la couleur à travers des structures discrètes (un nombre fixe de nombres entiers), ce qui est
+                        acceptable car l'œil humain et la perception sont également limités. Les espaces colorimétriques
+                        sont parfaitement capables de représenter toutes les couleurs que nous pouvons distinguer.</p>
+                    <p style="text-align: justify">Maintenant que nous comprenons le concept d'espaces de couleur, nous
+                        pouvons continuer à les utiliser dans OpenCV.</p>
+                    <h5>1.2 Segmentation simple à l'aide de facial</h5>
+                    <p style="text-align: justify">le segmenteur est un outil de facial capable de détecter les couleurs
+                        dans un cadre, puis segmentez les couleurs choisies</p>
+                    <p style="text-align: justify">vous devez d'abord ouvrir l'application, puis allez dans le menu
+                        <b>Open > Configure Segmenter</b></p>
+                    <figure>
+                        <img src="img/seg.jpg" alt="">
+                    </figure>
+                    <p style="text-align: justify">Nous allons maintenant essayer de segmenter la couleur rouge des
+                        images. Pour faire cela, nous devons cliquer sur test sur image et choisir les images de test.</p>
+                    <strong>Résultat d'image 1 : </strong><br>
+                    <figure>
+                        <img src="img/res0.png" alt="">
+                    </figure>
+                    <strong>Résultat d'image 2 : </strong><br>
+                    <figure>
+                        <img src="img/res1.png" alt="">
+                    </figure>
+                    <p style="text-align: justify">Le segmenteur pouvait détecter la couleur que nous voulions
+                        segmenter et ses intervalles, on peut voir ces intervalles en cliquant sur show color ranges</p>
+                    <p style="text-align: justify">une fenêtre montrera les gammes du Rouge : </p>
+                    <figure>
+                        <img src="img/inter.jpg" alt="">
+                    </figure>
+                    <br>
+                    <h4 id="hcd">2 La détection du Visage avec HAAR CASCADES</h4>
+                    <p style="text-align: justify">Les caractéristiques pseudo-Haar sont décrites pour la première fois
+                        dans un article de Paul Viola et Michael Jones paru en 2001 dans la revue scientifique
+                        International Journal of Computer Vision (IJCV), dans laquelle ils décrivent une nouvelle
+                        méthode de détection de visage1. Le cœur de cette méthode s'inspire des travaux de Papageorgiou,
+                        Oren et Poggio2, qui ont décrit des caractéristiques construites à partir d'un ensemble
+                        d'ondelettes de Haar.
+                        L'avantage déterminant des caractéristiques pseudo-Haar est la rapidité de leur calcul.
+                        Couplées à la technique des images intégrales, elles peuvent être calculées en un temps
+                        constant d'environ 60 instructions de processeur pour une caractéristique à deux rectangles.
+                        En revanche, leur simplicité ne leur permet pas de retenir de l'information très complexe,
+                        à la différence de caractéristiques plus sophistiquées comme les filtres orientés (en) ou les
+                        filtres de Gabor. </p>
+                    <h5>Détection de visage traditionnelle avec Python</h5>
+                    <p style="text-align: justify">La vision par ordinateur est un domaine passionnant et en croissance.
+                        Il y a des tonnes de problèmes intéressants à résoudre! L'un d'eux est la détection des visages:
+                        la capacité d'un ordinateur à reconnaître qu'une photographie contient un visage humain et à
+                        vous dire où elle se trouve</p>
+                    <h6>Qu'est-ce que la détection de visage?</h6>
+                    <p style="text-align: justify">La détection des visages est un type de technologie de vision par
+                        ordinateur capable d’identifier les visages des personnes dans des images numériques. C'est
+                        très facile pour les humains, mais les ordinateurs ont besoin d'instructions précises.
+                        Les images peuvent contenir de nombreux objets qui ne sont pas des visages humains, tels que
+                        des bâtiments, des voitures, des animaux, etc.</p>
+                    <p style="text-align: justify">Elle se distingue des autres technologies de vision par ordinateur
+                        faisant appel à des visages humains, telles que la reconnaissance faciale, l'analyse et le suivi.</p>
+                    <p style="text-align: justify"><b>La reconnaissance faciale</b> consiste à identifier le visage de
+                        l'image comme appartenant à la personne X et non à la personne Y. Il est souvent utilisé à des
+                        fins biométriques, comme le déverrouillage de votre smartphone.</p>
+                    <p style="text-align: justify"><b>L'analyse faciale</b> tente de comprendre quelque chose sur les personnes
+                        à partir de leurs caractéristiques faciales, comme déterminer leur âge, leur sexe ou l'émotion
+                        qu'elles manifestent.</p>
+                    <p style="text-align: justify"><b>Le suivi du visage</b> est principalement présent dans l'analyse
+                        vidéo et tente de suivre un visage et ses caractéristiques (yeux, nez et lèvres) d'une image à
+                        l'autre. Les applications les plus populaires sont divers filtres disponibles dans des
+                        applications mobiles telles que Snapchat.</p>
+                    <h6>Comment les ordinateurs "voient-ils" les images?</h6>
+                    <p style="text-align: justify">Le plus petit élément d'une image s'appelle un pixel ou un élément
+                        d'image. C'est fondamentalement un point dans l'image. Une image contient plusieurs pixels
+                        disposés en rangées et en colonnes.</p>
+                    <p style="text-align: justify">Vous verrez souvent le nombre de lignes et de colonnes exprimé par
+                        la résolution de l'image. Par exemple, un téléviseur Ultra HD a une résolution de 3840x2160,
+                        ce qui signifie qu’il a une largeur de 3840 pixels et une hauteur de 2160 pixels.</p>
+                    <p style="text-align: justify">Mais un ordinateur ne comprend pas les pixels comme des points de
+                        couleur. Il ne comprend que les chiffres. Pour convertir les couleurs en chiffres, l’ordinateur
+                        utilise divers modèles de couleurs.</p>
+                    <p style="text-align: justify">Dans les images couleur, les pixels sont souvent représentés dans le
+                        modèle de couleur RVB. Chaque pixel est un mélange de ces trois
+                        couleurs. Le mode RVB permet de modéliser toutes les couleurs perçues par les humains en
+                        combinant diverses quantités de rouge, de vert et de bleu.</p>
+                    <p style="text-align: justify">Dans les images en niveaux de gris (noir et blanc), chaque pixel est
+                        un nombre unique, représentant la quantité de lumière, ou l'intensité, qu'il véhicule. Dans de
+                        nombreuses applications, la plage d'intensités va de 0 (noir) à 255 (blanc). Tout ce qui se
+                        situe entre 0 et 255 correspond à différentes nuances de gris.</p>
+                    <p style="text-align: justify">Si chaque pixel en niveaux de gris est un nombre, une image n'est
+                        autre qu'une matrice (ou un tableau) de nombres:</p>
+                    <figure class="figure mx-auto d-block">
+                        <a href="https://files.realpython.com/media/3x3.602445ad9862.png" target="_blank"><img class="img-fluid mx-auto d-block " src="https://files.realpython.com/media/3x3.602445ad9862.png" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/3x3.602445ad9862.png&amp;w=45&amp;sig=26ed8b334ffd3f3edb925e62fd1c663c190d89bc 45w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/3x3.602445ad9862.png&amp;w=91&amp;sig=e66c55c8399f217e7a2e2a8c974e0e650e9f8bd9 91w, https://files.realpython.com/media/3x3.602445ad9862.png 182w" sizes="75vw" alt="Example of pixel values in a 3x3 grayscale image" width="182" height="182"></a><figcaption class="figure-caption text-center">Example 3x3 image with pixel values and colors</figcaption>
+                    </figure>
+                    <h6>Caractéristiques HAAR-LIKE</h6>
+                    <p style="text-align: justify">Tous les visages humains partagent certaines similitudes. Si vous
+                        regardez une photo montrant le visage d’une personne, vous verrez, par exemple, que la région
+                        des yeux est plus sombre que l’arête du nez. Les joues sont également plus brillantes que la
+                        région des yeux. Nous pouvons utiliser ces propriétés pour nous aider à comprendre si une image
+                        contient un visage humain.</p>
+                    <p style="text-align: justify">Un moyen simple de déterminer quelle région est la plus claire ou la
+                        plus sombre consiste à résumer les valeurs de pixels des deux régions et à les comparer. La
+                        somme des valeurs de pixels dans la région la plus sombre sera inférieure à la somme des pixels
+                        dans la région la plus claire. Ceci peut être accompli en utilisant des fonctionnalités
+                        similaires à Haar.</p>
+                    <p style="text-align: justify">Pour être utile, une fonctionnalité de type Haar doit vous donner un
+                        grand nombre, ce qui signifie que les zones dans les rectangles noir et blanc sont très
+                        différentes. Il existe des fonctionnalités connues qui fonctionnent très bien pour détecter
+                        les visages humains:</p>
+                    <h4 id="hog">La détection avec HOG (Détection du corps)</h4>
+                    <p style="text-align: justify">Un descripteur de fonctionnalité est une représentation d'une image
+                        ou d'un patch d'image qui simplifie l'image en extrayant des informations utiles et en éliminant
+                        les informations superflues.</p>
+                    <p style="text-align: justify">En règle générale, un descripteur d'entité convertit une image de
+                        taille largeur x hauteur x 3 (canaux) en un vecteur / matrice d'entités de longueur n. Dans le
+                        cas du descripteur de caractéristique HOG, l’image d’entrée est de taille 64 x 128 x 3 et le
+                        vecteur de caractéristique de sortie est de longueur 3780.</p>
+                    <p style="text-align: justify">Dans le descripteur de caractéristique HOG, la distribution
+                        (histogrammes) des directions de gradients (gradients orientés) est utilisée comme
+                        caractéristique. Les dégradés (dérivés x et y) d'une image sont utiles car leur amplitude est
+                        grande autour des bords et des angles (zones de brusques changements d'intensité) et nous
+                        savons que les contours et les angles contiennent beaucoup plus d'informations sur la forme
+                        de l'objet que les régions plates.</p>
+                    <h5>simple démonstration de la détection de visage à l'aide du Facial</h5>
+                    <p style="text-align: justify">vous pouvez simplement ouvrir facial et vous verrez qu'il détecte
+                        votre visage par défaut</p>
+                    <figure>
+                        <img src="img/detectedface.jpg">
+                    </figure>
+                    <p style="text-align: justify">Utilisez les options dans la zone de configuration pour vérifier les
+                        objets de détection du visage, des yeux, du nez et du sourire.</p>
+                    <p style="text-align: justify">Vous pouvez également appliquer une détection sur une image, utiliser
+                        le processeur d'image du menu ou de la zone de vision pour lancer l'éditeur.</p>
+                    <figure>
+                        <img src="img/imgpros.jpg">
+                    </figure>
+                    <p style="text-align: justify">Sélectionnez la détection de visage et l'image que vous souhaitez
+                        tester et le résultat sera le même.</p>
+                    <p style="text-align: center"></p>
+                    <h3 id="rec">La reconnaissance avec openCV</h3>
+                    <p style="text-align: justify">Facial utilise un visage par défaut pour initialiser les données du
+                        système de reconnaissance</p>
+                    <figure>
+                        <img src="img/reco.jpg">
+                    </figure>
+                    <p style="text-align: justify">Le système de reconnaissance commencera à vous reconnaître après
+                        l’enregistrement. Pour ce faire, ouvrez le menu > Open > Configure Trainning ou just utiliser
+                        l'icon du visage sur la zone visuelle</p>
+                    <figure>
+                        <img src="img/reco2.jpg">
+                    </figure>
+                    <p style="text-align: justify">La reconnaissance prend efficacement effet après le redémarrage du
+                        programme, il est donc recommandé de laisser l'option de redémarrage cochée.</p>
+                    <p style="text-align: justify">Après le redémarrage, vous pouvez voir votre visage ajouté au dataset
+                        en l'ouvrant à partir du menu > Navigate > Data Set ou de la zone visuelle.</p>
+                    <figure>
+                        <img src="img/reco4.jpg">
+                    </figure>
+                    <p style="text-align: justify">Vous pouvez voir des informations sur tous les utilisateurs dans
+                        le menu > Navigate > Show All Users</p>
+                    <figure>
+                        <img src="img/reco5.jpg">
+                    </figure>
+                    <p style="text-align: justify">La Valeur Trainned indique que le profile est reconnus par le
+                        système et que l'utilisateur est déjà enregistré</p>
+                    <figure>
+                        <img src="img/reco8.jpg">
+                    </figure>
+                    <p style="text-align: justify">la détection et la reconnaissance sont des tâches très avancées que
+                        propose facial, mais ce n’est pas tout, facial utilisera cette technologie pour effectuer des
+                        tâches plus utiles à l’utilisateur, le premier d’entre elles consiste à appliquer des filtres
+                        et des effets au visage du profil, ce qui peut être divertissant pour l'utilisateur, c'est ce
+                        que nous allons discuter dans le prochain chapitre</p>
+				</div>
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="index.html#opencv">Découvrir OpenCV</a></li>
+                            <li><a href="https://journals.openedition.org/critiquedart/2354">La Vision Machine</a></li>
+                            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiFhOeC4rbiAhVXVRUIHfuRDNIQFjABegQICxAE&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FSegmentation_d%2527image&usg=AOvVaw3DJ-x4XbYweLlwTK3u9sCj">Introduction au segementation des images</a></li>
+                            <li><a href="https://realpython.com/python-opencv-color-spaces/">Tuto Segementation</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Caract%C3%A9ristiques_pseudo-Haar">Haar Cascades description</a></li>
+                            <li><a href="https://realpython.com/traditional-face-detection-python/">Détection faciale avec OpenCV</a></li>
+                            <li><a href="https://www.learnopencv.com/histogram-of-oriented-gradients/">descripteur HOG</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+				<a href="#navigat2" style="text-align: right;">Vers Navigation</a><br>
+				<a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+				<a href="#navigate" style="text-align: right;">Aller vers Chapitre 1</a><br>
+				<a href="#navigate3" style="text-align: right;">Aller vers Chapitre 3</a><br>
+				<a href="#navigate4" style="text-align: right;">Aller vers Chapitre 4</a><br>
+				<a href="#navigate5" style="text-align: right;">Aller vers Chapitre 5</a><br>
+				<a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+				<a href="#" style="text-align: right;">Vers Le Haut</a><br>
+			</div>
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate2">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#navigate">CHAPITRE 1<span>1</span></a></li>
+							<li><a href="#ch2">CHAPITRE 2<span>2</span></a></li>
+							<li><a href="conceptions.html#fc" style="margin-left: 22px;">CONCEPTION<span>2.1</span></a></li>
+							<li><a href="#det" style="margin-left: 22px;">détection<span>2.2</span></a></li>
+                            <li><a href="#seg" style="margin-left: 32px;">segmentation des images<span>2.2.1</span></a></li>
+                            <li><a href="#hcd" style="margin-left: 32px;">détection avec haar<span>2.2.2</span></a></li>
+                            <li><a href="#hog" style="margin-left: 32px;">détection avec hog<span>2.2.3</span></a></li>
+							<li><a href="#rec" style="margin-left: 22px;">RECONNAISSANCE<span>2.3</span></a></li>
+							<li><a href="vids/DETECTION/DETECTION.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 1<span>2.4</span></a>
+							<li><a href="vids/RECONAISSANCE/RECONAISSANCE.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 2<span>2.5</span></a></li>
+							<li><a href="#navigate3">CHAPITRE 3<span>3</span></a></li>
+							<li><a href="#navigate4">CHAPITRE 4<span>4</span></a></li>
+							<li><a href="#navigate5">CHAPITRE 5<span>5</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+                    <br><br><br>
+                    <img src="img/RGB.jpg" alt="">
+                    <br><br><br>
+                    <img src="img/cmyk.jpg" alt="">
+                    <br><br><br>
+                    <img src="img/hsv.jpg" alt="">
+                    <br><br><br><br><br><br>
+                    <h3 style="text-align: center">Les images de teste</h3>
+                    <img src="img/test0.jpg">
+                    <br><br><br>
+                    <img src="img/test1.jpg">
+                    <br><br><br><br><br><br><br><br><br><br><hr>
+                    <h3 style="text-align: center">Utilisation du frame principale pour choisir les couleurs souhaitées</h3>
+                    <p style="text-align: center">Ouvrez le menu et choisissez Tracé RGB 3D Plot. Un diagramme d'espace
+                        couleur 3D apparaîtra, déplacez la souris pour obtenir les coordonnées de couleur et
+                        utilisez-les dans la saisie manuelle du segmenteur.</p>
+                    <br><br><br>
+                    <img  src="img/seg1.jpg">
+                    <br><br><br><hr>
+                    <img src="img/seg0.jpg">
+                    <hr>
+                    <br>
+                    <div class="n1">
+                        <a class="natt" href="https://realpython.com/python-opencv-color-spaces/">Segmentation des images</a><hr>
+                        <p>C'est peut-être l'ère de l'apprentissage en profondeur et du big data, où des algorithmes
+                            complexes analysent des images en en montrant des millions, mais les espaces colorimétriques
+                            restent étonnamment utiles pour l'analyse d'images. Des méthodes simples peuvent toujours
+                            être puissantes.</p>
+                    </div><br>
+                    <div class="n1">
+                        <a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjflvvXobfiAhWDURUIHbZWDfYQFjACegQIARAB&url=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fcourses%2F1490316-introduction-a-la-vision-par-ordinateur%2F1490757-quest-ce-quune-image&usg=AOvVaw3uTVhpij5oHux5MLcakqn4">Qu'est-ce qu'une image ?</a><hr>
+                        <p>Nous apprendrons donc à représenter les images en niveaux de gris en mathématiques, ainsi
+                            que dans la mémoire de votre ordinateur, ...</p>
+                    </div>
+                    <br><br>
+                    <img style="margin-left: 50px" src="img/xml.jpg">
+                    <br><br>
+                    <div class="n1">
+                        <a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjnuJaZo7fiAhU7UxUIHXGNCYYQFjAAegQIBhAC&url=https%3A%2F%2Fwww.w3schools.com%2Fxml%2F&usg=AOvVaw08Z_qTmj_EHXAhjYLsOSx5">Apprendre XML</a><hr>
+                        <p>XML signifie eXtensible Markup Language. XML a été conçu pour stocker et transporter des
+                            données. XML a été conçu pour être lisible à la fois par l'homme et par la machine.</p>
+                    </div>
+                    <img src="img/facedetect.jpg">
+                    <br><br>
+                    <div class="n5">
+                        <a class="natt5" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjH4K3io7fiAhVrURUIHVUqAkQQFjABegQIAxAB&url=https%3A%2F%2Fdocs.opencv.org%2F3.4%2Fd7%2Fd8b%2Ftutorial_py_face_detection.html&usg=AOvVaw04eVDtrGysZecdS78yeNC2">Détection Tuto</a><hr>
+                        <p>Nous verrons les bases de la détection des visages avec Haar Feature-Cascade ...
+                            Initialement, l'algorithme nécessite beaucoup d'images positives (images de visages) et ...</p>
+                    </div>
+                    <br><br><br>
+                    <img src="img/imgqu.jpg">
+                    <br><br><br><br><br><br>
+                    <h3 style="text-align: center">HAAR-LIKE</h3>
+                    <img style="margin-left: 100px" src="img/hrl.svg">
+                    <br><br>
+                    <div class="n6">
+                        <a class="natt6" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjsoaXNgbjiAhX0QhUIHSNoC4IQFjAAegQIABAB&url=https%3A%2F%2Fwww.pyimagesearch.com%2F2015%2F11%2F09%2Fpedestrian-detection-opencv%2F&usg=AOvVaw0x8ZhHwyjOkpkiVxeLKWvw">Détection de piétons OpenCV</a><hr>
+                        <p>La classe HOGDescriptor détecte automatiquement les piétons dans les images à l'aide de ...
+                            Ces paires de bases sont combinées de manière à ce que nos corps ...</p>
+                    </div>
+                    <br><br>
+                    <h3 style="text-align: center">La vision du Console</h3>
+                    <img src="img/detectedface2.jpg">
+                    <br><br><br>
+                    <p style="text-align: justify">START_X : le début des coordonnées horizontales du visage</p>
+                    <p style="text-align: justify">END_X : la fin des coordonnées horizontales du visage</p>
+                    <p style="text-align: justify">START_Y : le début des coordonnées verticales du visage</p>
+                    <p style="text-align: justify">END_Y : la fin des coordonnées verticales du visage</p>
+                    <br><br><br><br>
+                    <img src="img/imgpros2.jpg">
+                    <br><br>
+                    <p style="text-align: justify">Sélectionnez la méthode de détection et ouvrez l'image, le résultat
+                        sera obtenu</p>
+                    <hr>
+                    <br><br>
+                    <h3 style="text-align: center">Tuto complet sur la détection et la reconnaissance faciale</h3>
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/PmZ29Vta7Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br><br>
+                    <div class="n8">
+                        <a class="natt8" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjH4K3io7fiAhVrURUIHVUqAkQQFjAAegQIABAB&url=https%3A%2F%2Fwww.pyimagesearch.com%2F2018%2F09%2F24%2Fopencv-face-recognition%2F&usg=AOvVaw1WNiMi71fPtaVAX9b2Ugnm">Reconnaissance faciale tuto</a><hr>
+                        <p>Dans ce didacticiel, vous apprendrez à utiliser OpenCV Face Recognition pour reconnaître
+                            avec précision des visages dans des flux d'images et de vidéos en utilisant ...</p>
+                    </div>
+                    <br><br>
+                    <h3 style="text-align: center">Configuration des profiles</h3>
+                    <img src="img/reco3.jpg">
+                    <br><br>
+                    <p style="text-align: justify">Vous pouvez vous inscrire en tant que nouveau profil en ajoutant
+                        votre prénom et votre nom</p>
+                    <p style="text-align: justify">Vous pouvez mettre à jour les données de profil en sélectionnant
+                        le profil dans la liste déroulante de gauche.</p>
+                    <p style="text-align: justify">Vous pouvez supprimer un profil par un clic droit dessus</p>
+                    <p style="text-align: justify">Vous pouvez supprimer tous les profils par un clic droit sur
+                        l'icône de l'utilisateur en haut de la liste.</p>
+                    <br><br><br>
+                    <h3 style="text-align: center">Affichage du profile courent</h3>
+                    <img src="img/reco6.jpg">
+                    <br><br>
+                    <p style="text-align: center">Jusqu'à ce qu'un autre utilisateur soit reconnu, le programme garde
+                        en mémoire le dernier utilisateur reconnu.</p>
+                    <br><br>
+                    <h3 style="text-align: center">Histoire de reconnaissance</h3>
+                    <img src="img/reco7.jpg">
+                    <br><br>
+                    <p style="text-align: justify">Suivre les valeurs de confidence de votre reconnaissance depuis
+                     le menu > Navigate > Show Logs History ou depuis la zone visuelle</p>
+                    <p style="text-align: justify">Les valeurs de confiance sont comprises entre 0 et 100</p>
+                    <p style="text-align: justify">plus la valeur est faible, plus grande sera la confiance</p>
+                    <p style="text-align: justify">Mise à jour des données à chaque fois que cela est recommandé, en
+                        particulier lors du changement d'emplacement</p>
+                    <p style="text-align: justify">la suppression de tous les ensembles de données signifie que tous
+                        les utilisateurs ne seront pas reconnus par le système</p>
+                    <br><br><br><br><br><br>
+                    <p style="text-align: justify">OpenCV n’est pas très doué pour la reconnaissance et la prédiction
+                        de l’identité faciale, la qualité des résultats dépend de la clarté de la zone de tournage, la
+                        qualité de la webcam est également importante.</p>
+                    <p style="text-align: justify">Lorsque les conditions sont basses, facial continue de chercher dans
+                        le DataSet le visage le plus apparié. Il est donc normal que des erreurs soient prédites
+                        pour le nom du visage.</p>
+                    <p style="text-align: justify">lors de l'enregistrement des données, l'utilisateur doit toujours
+                        essayer d'être au centre de la zone de la trame et son visage doit être suffisamment clair</p>
+                </div>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div><hr>
+	<!-- chapter 3 FINISHED -->
+	<div id="ch3" class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+				<!-- post content -->
+				<div class="section-row">
+					<h1 style="text-align: center">CHAPITRE 3 FILTRES ET EFFECTS</h1>
+					<hr>
+					<p style="text-align: justify">Facial peut utiliser la technologie de détection de visage
+						pour effectuer certaines tâches intéressantes. Aujourd'hui, les gens aiment modifier l'apparence de leur visage. Il s'agit d'une technologie divertissante et intéressante offerte par les applications de médias sociaux multiples telles que snappshot, facebook, instagram ...</p>
+					<img src="img/socmedia.png">
+					<h2 id="fil">Les Filtres</h2>
+					<p style="text-align: justify">Pour appliquer un filtre sur une image, facial utilise le système
+						de détection, trouve le visage de l'utilisateur, exécute des calculs dimensionnels, puis passe
+						un autocollant png sur le visage.</p>
+					<h3>Les Images PNG (Portable Network Graphics)</h3>
+					<p style="text-align: justify">Le Portable Network Graphics (PNG) est un format ouvert d’images
+						numériques, qui a été créé pour remplacer le format GIF, à l’époque propriétaire et dont la
+						compression était soumise à un brevet. Le PNG est un format sans perte spécialement adapté pour
+						publier des images simples comprenant des aplats de couleurs. </p>
+					<p style="text-align: justify">PNG est une spécification pour Internet et l’objet d’une
+						Recommandation W3C et d’une RFC. Il a été créé pour contourner la licence existante sur le
+						format GIF, le plus en vogue à la fin des années 1990, Unisys, propriétaire de deux brevets
+						sur des algorithmes utilisés par la compression sous GIF ayant réclamé des royalties. PNG a
+						alors été défini mais en augmentant les capacités de GIF. </p>
+					<h3>Utilisation des filtres avec Facial</h3>
+					<p style="text-align: justify">Les filtres et les effets sont situés dans le panneau inférieur de
+						la zone visuelle de la plateforme de facial. Vous pouvez utiliser la touche gauche / droite du
+						clavier pour basculer entre eux ou simplement avec un clic droit de la souris.</p>
+					<h4>Application des filtres avec facial</h4>
+					<p style="text-align: justify">Paneaux des filtres</p>
+					<img src="img/filbar.png">
+					<br><hr><br>
+					<p style="text-align: center">FILTRE 1 MAROCCAIN FILTRE</p>
+					<figure>
+						<img src="img/f1.jpg">
+					</figure>
+					<p style="text-align: center">FILTRE 2 HACKER</p>
+					<figure>
+						<img src="img/f2.jpg">
+					</figure>
+					<p style="text-align: center">FILTRE 3 DARK MASK</p>
+					<figure>
+						<img src="img/f3.jpg">
+					</figure>
+					<p style="text-align: center">FILTRE 4 CHIEN FILTRE</p>
+					<figure>
+						<img src="img/f4.jpg">
+					</figure>
+					<p style="text-align: center">FILTRE 5 MONSTRE</p>
+					<figure>
+						<img src="img/f5.jpg">
+					</figure>
+					<p style="text-align: center">FILTRE 6 RENARD FILTRE</p>
+					<figure>
+						<img src="img/f6.jpg">
+					</figure>
+					<br><br>
+					<h2 id="eff">Les Effets</h2>
+					<p style="text-align: justify">Dans les programmes graphiques et d’édition d’images, les effets
+						d’image sont des algorithmes prédéfinis qui vous permettent d’ajouter des effets spéciaux à
+						vos images. Les effets réels dépendront du logiciel que vous utilisez. Vous pouvez généralement
+						choisir différents effets qui modifieront les bords de votre image, le niveau de bruit, le
+						dégradé et d'autres aspects de votre image.</p>
+					<p style="text-align: justify">Avec la plupart des programmes comme Photoshop, vous pouvez
+						simplement sélectionner le nom de l’effet d’image et le programme produira l’image avec
+						l’effet; facial essaiera de vous offrir cette expérience aussi.</p>
+					<h4>Application des effets avec facial</h4>
+					<p style="text-align: justify">Paneaux des effets</p>
+					<img src="img/effbar.png">
+					<br><hr><br>
+					<p style="text-align: center">MODE NORMALE</p>
+					<figure>
+						<img src="img/norm.jpg">
+					</figure>
+					<p style="text-align: center">EFFET TEINTE SATURATION LUMIERE (HSV)</p>
+					<figure>
+						<img src="img/e1.jpg">
+					</figure>
+					<p style="text-align: center">EFFET SUPERPOSITION DU COULEUR (VERT) (COLOR OVERLAY)</p>
+					<figure>
+						<img src="img/e2.jpg">
+					</figure>
+					<p style="text-align: center">EFFET SEPIA</p>
+					<figure>
+						<img src="img/e3.jpg">
+					</figure>
+					<p style="text-align: center">EFFECT DE COULEUR INVERSEE</p>
+					<figure>
+						<img src="img/e4.jpg">
+					</figure>
+					<p style="text-align: center">EFFET DE FLOU</p>
+					<figure>
+						<img src="img/e5.jpg">
+					</figure>
+					<p style="text-align: center">EFFET NOIR ET BLANC</p>
+					<figure>
+						<img src="img/e6.jpg">
+					</figure>
+					<p style="text-align: justify">jouer avec des filtres et des effets n’est pas tout ce que vous
+						pouvez faire avec facial, vous pouvez prendre des photos et les enregistrer avec le filtre
+						souhaité dans un dossier multimédia. Aussi, lorsque nous parlons de média, facial vous propose
+						également un système d’enregistrement vidéo, qui ont trait à la gestion des médias dans le
+						chapitre suivant</p>
+				</div>
+				<!-- post tags -->
+				<div class="section-row">
+					<div class="post-tags">
+						<ul>
+							<li>SOURCES:</li>
+							<li><a href="https://fr.wikipedia.org/wiki/Portable_Network_Graphics">Les images PNG</a></li>
+							<li><a href="https://www.webopedia.com/TERM/I/image_effects.html">Les effets d'image</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /post tags -->
+                <a href="#navigat3" style="text-align: right;">Vers Navigation</a><br>
+                <a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+                <a href="#navigate" style="text-align: right;">Aller vers Chapitre 1</a><br>
+                <a href="#navigate2" style="text-align: right;">Aller vers Chapitre 2</a><br>
+                <a href="#navigate4" style="text-align: right;">Aller vers Chapitre 4</a><br>
+                <a href="#navigate5" style="text-align: right;">Aller vers Chapitre 5</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+			</div>
+
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate3">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#navigate">CHAPITRE 1<span>1</span></a></li>
+							<li><a href="#navigate2">CHAPITRE 2<span>2</span></a></li>
+							<li><a href="#ch3">CHAPITRE 3<span>3</span></a></li>
+							<li><a href="conceptions.html#sc" style="margin-left: 22px;">CONCEPTION<span>3.1</span></a></li>
+							<li><a href="#fil" style="margin-left: 22px;">LES FILTRES<span>3.2</span></a></li>
+							<li><a href="#eff" style="margin-left: 22px;">LES EFFETS<span>3.3</span></a></li>
+							<li><a href="vids/FILTRES_EFFECTS/FILTRES_EFFECTS.html" style="margin-left: 22px;">DEMONSTRATION VIDEO<span>3.4</span></a></li>
+							<li><a href="#navigate4">CHAPITRE 4<span>4</span></a></li>
+							<li><a href="#navigate5">CHAPITRE 5<span>5</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+					<br><br><br><br><br><br><br><br><br><br><br><br>
+					<h3 style="text-align: center">Portable Network Graphics</h3>
+					<img src="img/png.png">
+				</div>
+				<br><br>
+				<div class="n7">
+					<a class="natt7" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj935XihLziAhXS7eAKHaNmAAgQFjAAegQIABAB&url=https%3A%2F%2Fdocs.opencv.org%2F3.4%2Fd4%2Fdbd%2Ftutorial_filter_2d.html&usg=AOvVaw0xmi15oNnh6-NOOcBA-8Q5">OpenCV: Créer vos propres filtres linéaires!</a><hr>
+					<p>apprenez comment: Utilisez la fonction OpenCV filter2D () pour créer vos propres filtres
+						linéaires. ... La sortie du filtre (avec chaque noyau) sera affichée pendant 500 millisecondes ...</p>
+				</div>
+				<br><hr><br>
+				<h3 style="text-align: center">Tuto Creation des filtres avec OpenCV et Python</h3>
+				<iframe width="360" height="280" src="https://www.youtube.com/embed/HZ3mhgbjtRU?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br><br>
+				<p style="text-align: center"><strong>les filtres ne sont pas parfaitement appliqués, mais facial fait
+					toujours du bon travail</strong></p>
+				<br><hr><br>
+				<p style="text-align: center"><img src="img/hat0.png"></p>
+				<br><br><br><br><br>
+				<p style="text-align: center"><img src="img/mask0.png"></p>
+				<br><br><br><br><br>
+				<p style="text-align: center"><img src="img/mask5.png"></p>
+				<br><br><br><br><br>
+				<p style="text-align: center"><img src="img/mask3.png"></p>
+				<br><br>
+				<p style="text-align: center"><strong>la détection est rapide et peut être plus efficace dans les endroits bien éclairés</strong></p>
+				<p style="text-align: center"><img src="img/brt.jpg"></p>
+				<br><br><br>
+				<img src="img/ptsh.png">
+				<br><hr><br>
+				<h3 style="text-align: center">Tuto Creation des effets d'images avec OpenCV et Python</h3>
+				<iframe width="360" height="280" src="https://www.youtube.com/embed/MVLuexuikv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br><br>
+				<div class="n6">
+					<a class="natt6" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj-iNTDmbziAhUL5uAKHbLJDYUQFjAAegQIAxAB&url=https%3A%2F%2Fwww.photoshopessentials.com%2Fphoto-effects%2F&usg=AOvVaw2ZfEwwNpr0-d_qQQWQKqxu">Didacticiels Photoshop Photo Effects</a><hr>
+					<p>Plus de 100 incroyables tutoriels sur les effets photo Photoshop que chacun peut créer, parfaits
+						pour les débutants. Apprenez Photoshop tout en créant des effets photo amusants et étonnants..</p>
+				</div>
+				<br><hr><br>
+				<h3 style="text-align: center">Teinte saturation lumière</h3>
+				<p style="text-align: center"><img src="img/maxresdefault.jpg"></p>
+				<p style="text-align: center">Teinte, saturation, luminosité sont les trois paramètres de description
+					d'une couleur dans une approche psychologique de cette perception. Cette expression désigne des
+					modèles de description des couleurs utilisés en graphisme informatique et en infographie,
+					qui adaptent ces paramètres, voir plus sur ce <a href="https://fr.wikipedia.org/wiki/Teinte_saturation_lumi%C3%A8re">lien</a></p>
+				<br><hr><br>
+				<h3 style="text-align: center">Superposition des couleurs</h3>
+				<p style="text-align: center"><img src="img/overlay2.png"></p>
+				<p style="text-align: center">Boîte de dialogue Superposition de couleurs des styles de calque.
+					La superposition de couleurs est probablement l’effet le plus explicite de tous les styles de
+					calque Photoshop. Il ne comporte que 3 paramètres: Mode de fusion, Couleur et Opacité ..., voir
+					plus sur ce <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwiy89yUnLziAhU5AGMBHRGbAuMQFjACegQICxAL&url=https%3A%2F%2Fdesign.tutsplus.com%2Farticles%2Fhow-to-use-color-overlay-within-the-layer-styles-dialogue-in-photoshop--psd-17580&usg=AOvVaw1p290oKpJ8QmQ7OyqePBgQ">lien</a></p>
+				<br><hr>
+				<h3 style="text-align: center">L'Effet Sepia</h3>
+				<p style="text-align: center"><img src="img/sepia.jpg"> </p>
+				<p style="text-align: center">En termes simples, le sépia est une forme de retouche d'impression
+					photographique - un ton ajouté à une photo noir et blanc dans la chambre noire pour «réchauffer»
+					les tons (bien qu'il s'agisse toujours d'une image monochromatique, elle est toujours considérée
+					comme noir et blanc), voir plus sur ce <a href="https://www.chasejarvis.com/blog/sepia-what-the-hell-is-it/">lien</a></p>
+				<br><hr>
+				<h3 style="text-align: center">Couleur Inversement</h3>
+				<p style="text-align: center"><img src="img/revs.png"> </p>
+				<p style="text-align: center">Inverser les couleurs des fichiers image, le blanc devient noir, le noir
+					devient blanc, l'orange devient bleu et ainsi de suite. Image d'entrée. Image avec des couleurs
+					inversées. Inverser!</p>
+				<br><hr>
+				<h3 style="text-align: center">Flou d'une image</h3>
+				<p style="text-align: center"><img src="img/blur.jpg"> </p>
+				<p style="text-align: center">Défocalisation de l'aberration, flou d'une image dû à une mise au point
+					incorrecte. Flou de mouvement, flou d'une image dû au mouvement du sujet ou du système d'imagerie.
+					Bokeh, la qualité esthétique des parties floues d'une image. Flou de boîte, un effet d'art graphique.
+					Flou gaussien, un effet d'art graphique, voir plus sur ce <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjYtaesoLziAhUN1eAKHXlvBc4QFjABegQIChAE&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlur&usg=AOvVaw1bR7rlQFdoCestuRLQ09L8">lien</a></p>
+				<hr>
+				<h3 style="text-align: center">Effet Noir & Blanc</h3>
+				<p style="text-align: center"><img src="img/gray.jpg"> </p>
+				<p style="text-align: center">En photographie numérique, images générées par ordinateur et colorimétrie,
+					une image en niveaux de gris ou en niveaux de gris est une image dans laquelle la valeur de chaque
+					pixel est un échantillon unique représentant uniquement une quantité de lumière, c'est-à-dire
+					qu'elle ne véhicule que des informations d'intensité. ... Les images en niveaux de gris comportent
+					de nombreuses nuances de gris., voir plus sur ce <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjaj4T7obziAhU3AWMBHUBQDLMQFjACegQIDBAK&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGrayscale&usg=AOvVaw3luWeJ3yfiX7wcqLOjt_cT">lien</a></p>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div><hr>
+	<!-- chapter 4 FINISHED -->
+	<div id="ch4" class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+				<!-- post content -->
+				<div class="section-row">
+					<h1 style="text-align: center">CHAPITRE 4 GESTION MEDIA</h1>
+					<hr>
+                    <p style="text-align: justify">L’opération d’utiliser des filtres et des effets sur nos images sans les
+						enregistrer n’est plus utile, alors nous devrions donc avoir notre galerie d’images
+						pour pouvoir y accéder, les éditer, les afficher ou les supprimer. Capturer une
+						image n’est pas la seule tâche que peut faire facial, puisque nous parlons de média
+						et notre programme peut capturer l’écran et enregistrer le clip dans la base des
+						données de façon qu’il puisse également être édité..</p>
+                    <h2 id="gp">Gestion des Photos/Images</h2>
+                    <h3>Capturation des Photos avec Facial</h3>
+                    <p style="text-align: justify">Capturer des photos avec facial est très facile et rapide, il vous suffit
+                        de cliquer sur l'icône de l'appareil photo dans le cadre visuel ou d'utiliser le menu > Open > Capture</p>
+                    <figure>
+                        <img src="img/cap.jpg">
+                    </figure>
+                    <p style="text-align: justify">Vous pouvez soit capturer une photo lorsque l'appareil photo est
+                        allumé ou éteint, X peut le faire exécuter uniquement pour les tâches souhaitées lorsqu'il est
+                        arrêté, comme la capture de photos, la segmentation des couleurs, l'affichage de tracés 3D ...,
+                        mais autres tâches comme l'enregistrement vidéo nécessite l'activation de la caméra</p>
+                    <p style="text-align: justify">Lorsque vous prenez la photo, celle-ci est enregistrée dans
+                        <b>chemin_application/media/</b> et vous pouvez y accéder via le processeur d'images.</p>
+                    <h4 style="text-align: center">Image Capturée par un utilisateur</h4>
+                    <figure>
+                        <img src="img/cap2.jpg">
+                    </figure>
+                    <h3>Edition des Photos Enregistrées</h3>
+                    <h4>Appliquation d'un Filtre ou Effet</h4>
+                    <p style="text-align: justify">Pour Appliquer un filtre ou un effet à une image dèja enregistrée vous devez
+                    dabort choisir le filtre ou/et l'effet depuis la zone visuelle</p>
+                    <h4 style="text-align: center">1 Choix d'effet Sepia</h4>
+                    <figure>
+                        <img src="img/cap3.jpg">
+                    </figure>
+                    <h4 style="text-align: center">2 Choix du filtre Hacker</h4>
+                    <figure>
+                        <img src="img/cap5.jpg">
+                    </figure>
+                    <h4 style="text-align: center">3 Ouvrir Le processeur des images</h4>
+                    <figure>
+                        <img src="img/cap4.jpg">
+                    </figure>
+                    <h4>Détection et reconnaissance faciale</h4>
+                    <p style="text-align: justify">En plus d'appliquer un effet sur les images enregistrées, vous
+                        pouvez faire de même avec le système de détection et de reconnaissance. Nous avons déjà constaté
+                        qu'au <a href="#rec">chapitre 2 la reconnaissance faciale</a>, il vous suffit de vérifier l'option de détection
+                        dans le processeur d'image, puis de cliquer sur la photo.</p>
+                    <br>
+                    <p style="text-align: justify">La gestion des images est utile, lorsque l'utilisateur ne veut pas
+                        allumer l'appareil photo ou ne l'a pas, avec le processeur d'image, il est toujours capable
+                        d'utiliser le système de détection et de reconnaissance, les filtres et les effets sur les
+                        images externes, etc.</p>
+                    <br>
+                    <h2 id="rv">Gestion des Vidéos</h2>
+                    <p style="text-align: justify">L'utilisateur peut enregistrer des vidéos avec 5 Frame Per Second
+                        FPS et les sauvegarder dans le dossier du support. Nous nous sommes basés sur les fonctionnalités
+                        Opencv et imutils pour configurer la qualité vidéo qui est de 480p par défaut.</p>
+                    <p style="text-align: justify">Pour commencer à enregistrer une vidéo, vous devez cliquer sur le
+                        bouton de la caméra ou utiliser le menu > Open > Record.</p>
+                    <p style="text-align: justify">la caméra doit être activée, sinon le système d'enregistrement sera hors ligne</p>
+                    <figure>
+                        <img src="img/rec.jpg">
+                    </figure>
+                    <h3>Enregistrer les vidéos avec facial</h3>
+                    <p style="text-align: justify">Après avoir frappé le bouton d'enregistrement, la couleur de l'icône
+                        changerait au vert et le cadre de la caméra affiche un message rouge pour dire que l'enregistrement est lancé</p>
+                    <figure>
+                        <img src="img/rec2.jpg">
+                    </figure>
+                    <br>
+                    <h3>Lire les vidéos enregistrées</h3>
+                    <p style="text-align: justify">Une fois l'enregistrement terminé, le clip sera sauvegardé sur le
+                        support. Vous pourrez le lire à l'aide du lecteur vidéo de facial. Pour des raisons de gestion de la
+                        mémoire, nous avons choisi que le lecteur vidéo soit actif uniquement si la caméra vidéo ne l'est pas.</p>
+                    <p style="text-align: justify">donc pour commencer, vous devez désactiver la caméra depuis le bouton
+                        en haut du cadre, puis aller au menu > Navigate > Video Player</p>
+                    <figure>
+                        <img src="img/rec5.jpg">
+                    </figure>
+                    <br>
+                    <p style="text-align: justify">Le système d'enregistrement est configuré pour être utilisé comme une
+                        option de sécurité pouvant capturer des frames afin de protéger un lieu contre les voleurs. C'est
+                        pourquoi il utilise le système de sauvegarde quotidienne et n'applique pas de filtres ou
+                        d'effets, car nous ne voulons pas que les personnes soient cachées derrière des masques</p>
+                    <p style="text-align: justify">Cependant, enregistrer un lieu toutes les 24 heures  coûte
+                        beaucoup de stockage, la caméra enregistre toute la journée, ce qui permet de produire une longue
+                        vidéo de grande taille et de nombreux clips inutiles.</p>
+                    <p style="text-align: justify">L'idée est de s'assurer que la caméra enregistre uniquement les clips
+                        importants, c'est donc un système d'enregistrement intelligent dont nous parlerons dans le chapitre suivant.</p>
+				</div>
+                <!-- /post tags -->
+                <a href="#navigat2" style="text-align: right;">Vers Navigation</a><br>
+                <a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+                <a href="#navigate" style="text-align: right;">Aller vers Chapitre 1</a><br>
+                <a href="#navigate2" style="text-align: right;">Aller vers Chapitre 2</a><br>
+                <a href="#navigate3" style="text-align: right;">Aller vers Chapitre 3</a><br>
+                <a href="#navigate5" style="text-align: right;">Aller vers Chapitre 5</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+			</div>
+
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate4">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#navigate">CHAPITRE 1<span>1</span></a></li>
+							<li><a href="#navigate2">CHAPITRE 2<span>2</span></a></li>
+							<li><a href="#navigate3">CHAPITRE 3<span>3</span></a></li>
+							<li><a href="#ch4">CHAPITRE 4<span>4</span></a></li>
+                            <li><a href="conceptions.html#tc" style="margin-left: 22px;">CONCEPTION<span>4.1</span></a></li>
+                            <li><a href="#gp" style="margin-left: 22px;">GESTION DES PHOTOS<span>4.2</span></a></li>
+                            <li><a href="#rv" style="margin-left: 22px;">GESTION DES VIDéOS<span>4.3</span></a></li>
+                            <li><a href="vids/MEDIA_IMAGE/MEDIA_IMAGE.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 1<span>4.4</span></a></li>
+                            <li><a href="vids/MEDIA_VIDEO/s120560da.autosave.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 2<span>4.5</span></a></li>
+							<li><a href="#navigate5">CHAPITRE 5<span>5</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+                    <br><br>
+                    <div class="n3">
+                        <a class="natt3" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=21&cad=rja&uact=8&ved=2ahUKEwi62oHo477iAhWQAWMBHZpZAK4QFjAUegQIABAB&url=https%3A%2F%2Fdocs.opencv.org%2F3.0-beta%2Fdoc%2Fpy_tutorials%2Fpy_gui%2Fpy_image_display%2Fpy_image_display.html&usg=AOvVaw04Nn1MR_nUKAK5EoxoEOLR">Débuter avec les images</a><hr>
+                        <p>Ici, vous apprendrez à lire une image, à l’afficher et à la sauvegarder. Vous apprendrez ces
+                            fonctions: cv2.imread (), cv2.imshow (), cv2.imwrite () ...</p>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <p style="text-align: center"><img src="img/ezgif.com-resize.gif"> </p>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <div class="n3">
+                        <a class="natt3" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=2ahUKEwj3poyDir_iAhWq3eAKHfYTDD8QFjAHegQIAxAB&url=https%3A%2F%2Fwww.eyrolles.com%2FAudiovisuel%2FLivre%2Ftraitement-d-images-et-de-videos-avec-opencv-3-9782822705813%2F&usg=AOvVaw1vQPFKUKMpPoyMMHMM1vwO">Traitement d'images et de vidéos avec OpenCV</a><hr>
+                        <p>Les exemples sont écrits en C++ avec la version 3.3.0 d'OpenCV (et ... Caractéristiques
+                            techniques du livre "Traitement d'images et de vidéos avec OpenCV 3" ...</p>
+                    </div>
+                    <br><br>
+                    <p style="text-align: justify">La photo de l'utilisateur d'avant est enregistrée dans le dossier
+                        multimédia. Il suffit donc de cliquer dessus pour appliquer notre filtre et notre effet.</p>
+                    <p style="text-align: justify">l'image sera affichée avec les effets appliqués, à la fermeture, le
+                        programme vous demandera si vous souhaitez valider les modifications pour l'image</p>
+                    <p style="text-align: justify">Si vous souhaitez supprimer une image spécifique, effectuez un clic
+                        droit dessus et si vous souhaitez tout supprimer, utilisez le bouton Tout effacer.</p>
+                    <br>
+                    <h3 style="text-align: center">Résultats des éditions</h3>
+                    <img src="img/cap6.jpg">
+                    <p style="text-align: center">la nouvelle photo pirate sépia</p>
+                    <br><hr><br>
+                    <img src="img/cap7.jpg">
+                    <p style="text-align: center">la nouvelle photo par détection</p>
+                    <br><br><br><br><br>
+                    <div class="n2">
+                        <a class="natt2" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjOkpfT8r7iAhVDDGMBHYk_CKkQFjABegQIABAB&url=https%3A%2F%2Fdocs.opencv.org%2F3.0-beta%2Fdoc%2Fpy_tutorials%2Fpy_gui%2Fpy_video_display%2Fpy_video_display.html&usg=AOvVaw2O_YFN3WYm9q_szWsUSzUO">Débuter avec les vidéos</a><hr>
+                        <p>Apprenez à lire des vidéos, à les afficher et à les enregistrer. Apprenez à capturer à partir
+                            de la caméra et à l'afficher. Vous apprendrez ces fonctions: cv2.VideoCapture (), cv2.</p>
+                    </div>
+                    <br>
+                    <div class="n2">
+                        <a class="natt2" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjOkpfT8r7iAhVDDGMBHYk_CKkQFjAAegQIBBAB&url=https%3A%2F%2Fwww.learnopencv.com%2Fread-write-and-display-a-video-using-opencv-cpp-python%2F&usg=AOvVaw0cPlT7RPzJtSIllvi5ErFh">Lire, écrire et afficher une vidéo avec OpenCV</a><hr>
+                        <p>Un tutoriel pour lire, écrire et afficher des vidéos en utilisant OpenCV. Le code est fourni en C ++ et en Python.</p>
+                    </div>
+                    <br><h3 style="text-align: center">Tuto enregistrer des vidéos</h3>
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/1eHQIu4r0Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                    <p style="text-align: justify">Vous pouvez mettre en pause l'enregistrement en cliquant sur le même
+                        bouton. Un dialogue vous demandera si vous souhaitez terminer l'enregistrement.</p>
+                    <p style="text-align: center"><img src="img/rec3.jpg"></p>
+                    <p>Si Oui donc l'enregistrement est terminée et la vidéo sera sauvegardée</p>
+                    <p>Sinon donc l'enregistrement sera mis en pause et poursuivi au clic suivant</p>
+                    <p style="text-align: justify">Utilisez les boutons précédent et suivant pour basculer entre les vidéos</p>
+                    <p style="text-align: justify">Utilisez le bouton de lecture pour lire la vidéo à l'aide du lecteur vidéo Windows par défaut</p>
+                    <p style="text-align: justify">Effectuez un clic droit sur le bouton de lecture pour supprimer une vidéo spécifique.</p>
+                    <p style="text-align: justify">Une vidéo est enregistrée pour une date journalière. Par conséquent, si vous enregistrez deux vidéos le même jour, elles seront écrasées.</p>
+                    <h3 style="text-align: center">Lecture du vidéo</h3>
+                    <p style="text-align: center"><img src="img/rec4.jpg"></p>
+                    <p style="text-align: center"><img src="img/cam.jpg"> </p>
+                </div>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div><hr>
+	<!-- chapter 5 FINISHED -->
+	<div id="ch5" class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+				<!-- post content -->
+				<div class="section-row">
+					<h1 style="text-align: center">CHAPITRE 5 SECURITE</h1>
+					<hr>
+                    <p style="text-align: justify">La sécurité des systèmes d’information (SSI) ou plus simplement
+                        sécurité informatique, est l’ensemble des moyens techniques, organisationnels, juridiques et
+                        humains nécessaires à la mise en place de moyens visant à empêcher l'utilisation non-autorisée,
+                        le mauvais usage, la modification ou le détournement du système d'information. Assurer la
+                        sécurité du système d'information est une activité du management du système d'information. </p>
+                    <p style="text-align: justify">Aujourd’hui, la sécurité est un enjeu majeur pour les entreprises
+                        ainsi que pour l’ensemble des acteurs qui l’entourent. Elle n'est plus confinée uniquement
+                        au rôle de l’informaticien. Sa finalité sur le long terme est de maintenir la confiance des
+                        utilisateurs et des clients. La finalité sur le moyen terme est la cohérence de l’ensemble du
+                        système d’information. Sur le court terme, l’objectif est que chacun ait accès aux informations
+                        dont il a besoin</p>
+                    <p style="text-align: justify">Dans de nombreux cas, la sécurité infromatique serait nécessaire, utile pour
+                        protéger les personnes, les lieux et même les systèmes. la surveillance par caméra ou Vidéosurveillance est un bon
+                        exemple d'implémentation du sécurité informatique</p>
+                    <h3>Vidéosurveillance</h3>
+                    <figure class="pull-right">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cam%C3%A9ras_de_surveillance_sur_la_voie_publique.jpg/220px-Cam%C3%A9ras_de_surveillance_sur_la_voie_publique.jpg">
+                    </figure>
+                    <p style="text-align: justify">La vidéosurveillance (ou vidéoprotection qui est le terme officiel
+                        pour l’État en France1 est un système de caméras et de transmission d'images, disposé dans un
+                        espace public ou privé pour le surveiller à distance ; il s'agit donc d'un type de télésurveillance.
+                        Les images obtenues avec ce système, peuvent être traitées automatiquement et/ou visionnées
+                        puis archivées ou détruites. La surveillance a pour but de contrôler les conditions de respect
+                        de la sécurité, de la sûreté ou de l'exécution d'une procédure particulière. Le principe de
+                        filmer et de contrôler un phénomène à distance a été utilisé pendant la Seconde Guerre mondiale
+                        par les Allemands pour des raisons de sûreté : pour observer le lancement de leurs missiles.
+                        Mais on ne parle de télésurveillance stricto sensu qu'à partir du moment où le système est
+                        industrialisé et permet à un opérateur (surveillant) de contrôler simultanément plusieurs lieux
+                        sur une batterie d'écrans, ceci à des fins civiles. </p>
+                    <p style="text-align: justify">ce système offre une sécurité puissante mais un gaspillage de
+                        stockage et d'énergie, la caméra enregistre toute la journée, la vidéo enregistrée durerait
+                        si longtemps avec les clips inutiles, comme nous l'avons dit dans <a href="#ch4">le chapitre précédent</a> à
+                        <a href="#rv">la partie gestion vidéos</a></p>
+                    <br>
+                    <p style="text-align: justify">Pour résoudre ce problème, nous avons essayé de créer un mode
+                        d’enregistrement intelligent, qui devrait pouvoir contrôler le comportement des caméras afin de
+                        gagner du temps, de l’énergie et du stockage.</p>
+                    <br>
+                    <h2 id="srm">Mode Enregistrement Intelligent/Automatique</h2>
+                    <p style="text-align: justify">facial utilise le système de détection et de reconnaissance du visage
+                        et du corps pour contrôler le système d'enregistrement, de sorte que l'enregistreur enregistre
+                        uniquement les parties où des personnes sont détectées à l'intérieur de la zone de la caméra.</p>
+                    <p style="text-align: justify">Donc, la caméra va maintenant démarrer et arrêter l'enregistrement
+                        automatiquement en suivant les ordres du système</p>
+                    <p style="text-align: justify">Pour commencer, ouvrez d'abord facial et allez au menu > Control Detection > Smart Recording Mode</p>
+                    <figure>
+                        <img src="img/srm.jpg">
+                    </figure>
+                    <p style="text-align: justify"><h4>HAAR CASCADES Detector : </h4>utilisant des <a href="hcd">haar cascades</a> du haut du corps, du bas du corps et du corps entier,
+                    ce mode est également lancé automatiquement et il est plus fiable que le détecteur HOG SVM, mais il
+                    nécessite des performances d'ordinateurs (Hardware) élevées</p>
+                    <p style="text-align: justify"><h4>COOPERATED DETECTOR : </h4>c'est le mode le plus puissant qui
+                    utilise les détecteurs haarcascades et hog svm à la fois pour obtenir d'excellents résultats. Notez
+                    que ce mode requiert également de très bonnes performances matérielles.</p>
+                    <h3>Utlisation de SRM avec facial</h3>
+                    <h4 style="text-align: center">BASIC MODE TEST</h4>
+                    <figure>
+                        <img src="img/srec2.jpg">
+                    </figure>
+                    <h4 style="text-align: center">HCD DETECTOR MODE TEST</h4>
+                    <figure>
+                        <img src="img/srec3.jpg">
+                    </figure>
+                    <h4 style="text-align: center">SVM DETECTOR MODE TEST</h4>
+                    <figure>
+                        <img src="img/srec4.jpg">
+                    </figure>
+                    <h4 style="text-align: center">COOPERATED MODE TEST</h4>
+                    <figure>
+                        <img src="img/srec5.jpg">
+                    </figure>
+                    <br>
+                    <p style="text-align: justify">le mode d'enregistrement intelligent peut être excellent en tant que
+                        système de protection contre les vols, ce qui est un moyen de décrire la sécurité, une autre
+                        façon de décrire la sécurité est d'accéder au forum, facial donnera aux utilisateurs enregistrés
+                        d'éviter la page d'authentification par nom d'utilisateur et mot de passe et d'accéder
+                        directement à leur plate-forme.</p>
+                    <h2 id="rl">Authentification automatique avec facial</h2>
+                    <p style="text-align: justify">facial peut se connecter à un serveur via une base de données et
+                        échanger des informations sur les profils, afin que les utilisateurs enregistrés puissent
+                        accéder à leur plate-forme</p>
+                    <h3>Le Serveur Informatique</h3>
+                    <p style="text-align: justify">Un serveur informatique est un dispositif informatique (matériel ou
+                        logiciel) qui offre des services, à un ou plusieurs clients (parfois des milliers). Les services
+                        les plus courants sont : </p>
+                    <ul>
+                        <li>l'accès aux informations du World Wide Web</li>
+                        <li>le courrier électronique</li>
+                        <li>le partage d'imprimantes</li>
+                        <li>le commerce électronique </li>
+                        <li>le stockage en base de données</li>
+                        <li>la gestion de l'authentification et du contrôle d'accès </li>
+                        <li>le jeu et la mise à disposition de logiciels applicatifs</li>
+                    </ul>
+                    <p style="text-align: justify">Nous allons utiliser un serveur local uniquement pour tester la
+                        connectivité entre notre application et le serveur à partir de la base de données. Nous devons
+                        donc installer un programme appelé WampServer.</p>
+                    <h3>WampServer</h3>
+                    <figure class="pull-right">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/WampServer-logo.png/220px-WampServer-logo.png">
+                    </figure>
+                    <p style="text-align: justify">WampServer est une plateforme de développement Web de type WAMP,
+                        permettant de faire fonctionner localement des scripts PHP. WampServer n'est pas en soi un
+                        logiciel, mais un environnement comprenant trois serveurs, un interpréteur de script, ainsi
+                        que phpMyAdmin pour l'administration Web des bases MySQL</p>
+                    <h4>Installer WampServer</h4>
+                    <p style="text-align: justify">Téléchargez d'abord wamp Server sur <a href="http://www.wampserver.com/">le site officiel</a> et suivez les
+                        instructions pour l'installer sur votre appareil.</p>
+                    <figure>
+                        <img src="https://alcatiz.developpez.com/tutoriel/installer-wamp-windows10/images/fig05.png">
+                    </figure>
+                    <p style="text-align: justify">nous devons nous assurer que le chemin d'installation sera
+                        C: \\ wamp64, afin que notre application puisse le reconnaître</p>
+                    <h4>Configurer le serveur web du facial</h4>
+                    <p style="text-align: justify">Le site Web facial est un forum de connexion qui vous permet de vous
+                        abonner ou de vous connecter pour utiliser une plate-forme partagée entre l'application et
+                        le site Web, de sorte que tous les médias des utilisateurs de l'application soient visualisés
+                        et stockés sur le site Web.</p>
+                    <p style="text-align: justify">la connectivité nécessite un lien entre l'application et le serveur
+                        Web, c'est-à-dire la base de données MySQL fournie automatiquement avec wampServer paquage;
+                        nous devons donc le configurer également pour répondre aux exigences de notre application</p>
+                    <p style="text-align: justify">Pour commencer, téléchargez le dossier WebServer à partir de ce <a href="data/Facial%20WebServer.rar">lien</a>
+						ou <a href="index.html#downrapp">du panneau de téléchargement</a></p>
+					<p style="text-align: justify">Après avoir téléchargé le fichier rar, extrayez le dossier et copiez-le
+						dans C: \\wamp64\www\, Maintenant, vous devez importer la base de données sur WampServer</p>
+					<figure class="pull-right">
+						<img src="img/phpad.jpg">
+					</figure>
+					<p style="text-align: justify">et pour ce faire, cliquez sur l'icône wampserver dans la barre des
+						tâches et choisissez phpMyAdmin, vous serez alors dirigé vers une page d'authentification,
+						utilisez root comme nom d'utilisateur et n'écrivez rien dans le champ mot de passe, puis
+						cliquez sur OK.</p>
+					<p style="text-align: justify">Après l’accès, vous verrez un bouton d’importation sur la barre de
+						navigation de la page Web, cliquez dessus, puis sélectionnez le fichier à l’emplacement
+						C: \ wamp64 \ www \ Facial WebServer \ base_données \ projects.sql et cliquez sur ok, la base
+						de données est va être importé et le serveur sera configuré avec l'application</p>
+					<br>
+					<h3>Test d'utlisation du webServer avec facial</h3>
+					<figure class="pull-right">
+						<img src="img/login%20res2.png">
+					</figure>
+					<p style="text-align: justify">Après la configuration du serveur, vous devez lancer facial. Ce dernier
+						se connectera automatiquement à la base de données et au serveur Web. Après le lancement de facial,
+						l’icône d’authentification dans la zone visuelle sera activée, cliquez dessus ou allez simplement
+						au menu > Remote > Remote Login, cette interface serait affichée</p>
+					<h4 style="text-align: center">Interface de controle d'authentification</h4>
+					<figure>
+						<img src="img/remote.jpg">
+					</figure>
+					<p style="text-align: justify">D'autres outils d'interaction avec le serveur fournis par facial sont la
+						possibilité de voir toutes les informations des utilisateurs, y compris leurs mots de passe.
+						Vous pouvez également faire en sorte que facial génère des mots de passe pour tous les utilisateurs.
+						Vous trouverez ces options dans le menu.</p>
+					<h4 style="text-align: center">Visualisation des informations des utilisateurs</h4>
+					<figure>
+						<img src="img/remote3.jpg">
+					</figure>
+                    <h4 style="text-align: center">Activer l'écoute du signal depuis l'application Web</h4>
+                    <figure>
+                        <img src="img/remote2.jpg">
+                    </figure>
+                    <h4 style="text-align: center">La plateforme d'utilisateur</h4>
+                    <figure>
+                        <img src="img/remote6.jpg">
+                    </figure>
+                    <p style="text-align: justify">Nous avons tenus que notre travail soit consisté principalement d’une part
+						à comprendre comment les ordinateurs agissent, pensent et voient les choses,
+						d’autre part nous avons voulu améliorer la communication avec ce système
+						intelligent, capable d’interagir plus, c’est le pouvoir de l’intelligence artificielle, qui
+						est l'avenir de notre monde informatique.</p>
+                    <p style="text-align: justify">L'intelligence artificielle étend ses frontières en matière de technologie et de
+						connaissances. Partout, les gens discutent de machines intelligentes qui peuvent
+						améliorer le niveau de leurs vies. Certes Un grand nombre d'applications et de
+						concepts restent techniquement plus sophistiqués et peuvent être déroutants.</p>
+                    <figure>
+                        <img src="https://mindmajix.com/blogs/images/Artificial-Intelligence.png">
+                    </figure>
+				</div>
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_des_syst%C3%A8mes_d%27information">Sécurité des systèmes d'information</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Vid%C3%A9osurveillance">Vidéosurveillance</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Serveur_informatique">Serveur Informatique</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/WampServer">WampServer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <!-- /post tags -->
+                <a href="#navigate5" style="text-align: right;">Vers Navigation</a><br>
+                <a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+                <a href="#navigate" style="text-align: right;">Aller vers Chapitre 1</a><br>
+                <a href="#navigate2" style="text-align: right;">Aller vers Chapitre 2</a><br>
+                <a href="#navigate3" style="text-align: right;">Aller vers Chapitre 3</a><br>
+                <a href="#navigate4" style="text-align: right;">Aller vers Chapitre 4</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+			</div>
+
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate5">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#navigate">CHAPITRE 1<span>1</span></a></li>
+							<li><a href="#navigate2">CHAPITRE 2<span>2</span></a></li>
+							<li><a href="#navigate3">CHAPITRE 3<span>3</span></a></li>
+							<li><a href="#navigate4">CHAPITRE 4<span>4</span></a></li>
+							<li><a href="#ch5">CHAPITRE 5<span>5</span></a></li>
+                            <li><a href="conceptions.html#lc" style="margin-left: 22px;">CONCEPTION<span>5.1</span></a></li>
+                            <li><a href="#srm" style="margin-left: 22px;">Entregistrement Intelligent<span>5.2</span></a></li>
+                            <li><a href="#rl" style="margin-left: 22px;">Connexion avec Reconaissance Faciale<span>5.3</span></a></li>
+                            <li><a href="vids/SMARTRECO/SMARTRECO.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 1<span>5.4</span></a></li>
+                            <li><a href="vids/REMOAUTH/REMOAUTH.html" style="margin-left: 22px;">DEMONSTRATION VIDéO 2<span>5.5</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+                    <div class="n1">
+                        <a class="natt" href="https://www.companeo.com/securite-electronique/guide/logiciel-de-video-surveillance">Les meilleurs logiciels de vidéosurveillance en 2019</a><hr>
+                        <p>Pendant des années, un système de vidéosurveillance était constitué d'une ou plusieurs
+                            caméras, d'un module d'enregistrement et d'un module de ...</p>
+                    </div>
+                    <br><br>
+                    <img src="img/surv.jpg">
+                    <br><br>
+                    <h3 style="text-align: center">Détection des personnes dans la zone du camera</h3>
+                    <img src="img/srec.jpg">
+                    <p style="text-align: justify"><h4>Basic Mode : </h4>Mode Normale utilise la détection du visage comme capteur du signal d'enregistrement,
+                    la détection dans ce mode doit être activée manuellement par l'utilisateur dans <a href="#p4">la zone de configuration</a>
+                    , le système réagit à toute option de détection telle que la face frontale, la face profilée, les yeux, le nez ...</p>
+                    <p style="text-align: justify"><h4>HOG SVM Detector : </h4>Mode de détection du corps par le détecteur <a href="#hog">HOG SVM d'OpenCV</a>, dans ce mode la détection
+                    va lancer automatiquement et commencez à synchroniser la zone</p>
+                    <hr>
+                    <p style="text-align: center"><img src="img/srm2.jpg"></p>
+                    <br><br>
+                    <p style="text-align: justify">Le système a lancé la détection directement aprés la détection du visage d'utilisateur</p>
+                    <p style="text-align: justify">L'indicateur d'enregistrement située à droite affiche <em style="color:red">SREC ?/?</em>,
+                    SREC signifie Smart Recording ce qui indique que le mode d'enregistrement automatique est activé, les valeurs à côté
+                        décrivent l'intervalle de recherche de zone, OpenCV est efficace pour détecter des objets fixes,
+                        mais réagit de manière erronée lorsqu'il est déplacé, la détection sera interrompue pendant le
+                        déplacement d'une personne et l'enregistreur rencontrera des problèmes pour prévoir la détection
+                        car le détecteur échoue, il faut donc laisser au détecteur un intervalle de temps pour déterminer
+                        si l'objet se trouve dans la zone de vision ou non</p>
+                    <p style="text-align: justify">la première valeur décrit un compteur qui commence lorsque le détecteur
+                        détecte quelqu'un, et la valeur suivante est la valeur de l'intervalle maximum, si le compteur
+                        atteint la valeur maximale et que le détecteur ne détecte aucun objet, le détecteur sera sûr
+                        d'arrêter l'enregistreur, sinon il continuera à enregistrer</p>
+                    <hr>
+                    <p style="text-align: center"><img src="img/srm3.jpg"></p>
+                    <br>
+                    <figure>
+                        <img src="img/srec6.gif">
+                    </figure>
+                    <br>
+                    <p style="text-align: justify">lorsque le mode d’enregistrement intelligent est activé, le mode
+                        manuel est désactivé afin que l’utilisateur ne puisse pas interrompre le système et créer un
+                        petit problème dans le programme.</p>
+                    <p style="text-align: justify">le système de détection vous indiquera quel détecteur utilise d'aprés
+                        le panneau d’information situé en haut du cadre principal</p>
+                    <p style="text-align: justify"><h4>Face/Profile Detected : </h4>Pour la détection du visage, le système peut
+                    aussi utiliser la détection des yeux, du nez ... L'utilisateur doit activé cettes options de détection manuellement</p>
+                    <p style="text-align: justify"><h4>SVM Respond : </h4>Correspond à la detection du visage via le hog descripteur ou
+                    détecteur</p>
+                    <p style="text-align: justify"><h4>HCD Respond : </h4>Correspond à la detection du visage via le système de
+                    classification des cascades du corps</p>
+                    <p style="text-align: justify"><h4>Multi Detected : </h4>le cas où plus d'un objet est détecté</p>
+                    <br>
+                    <p style="text-align: center"><img src="img/auth.png"></p><br>
+                    <img src="img/serv.jpg">
+                    <br><br><br><br><br>
+                    <div class="n3">
+                        <a class="natt3" href="https://www.numelion.com/meilleurs-serveurs-web-local-windows.html">Meilleurs serveurs web en local pour Windows</a><hr>
+                        <p>Vous souhaitez utiliser un serveur web pour développer ou tester en local ? Alors découvrez
+                            sans plus attendre la liste des meilleurs serveurs web en local pour ...</p>
+
+                    </div>
+                    <br><br>
+                    <p style="text-align: justify">après l'installation, le serveur sera exécuté et notre hôte local
+                        sera accessible et fonctionnel, pour être sûr que le serveur fonctionne, vous verrez l'icône
+                        du serveur wampserver sur la barre de contrôle devenir verte et pour vérifier la connexion,
+                        allez sur votre navigateur et enregistrez bande localhost / ou 127.0.0.1</p>
+                    <figure><img src="https://craym.eu/tutoriels/developpement/images/local_host_wamp.png"></figure>
+                    <br>
+                    <p style="text-align: center">La page d'acceit du serveur local WampServer</p>
+                    <hr>
+                    <p style="text-align: justify">Notre serveur Web est développé avec php, de sorte qu'il puisse être
+                        exécuté par wampserver une fois que vous avez copié le dossier du serveur Web dans le dossier
+                        www de wamp64.</p>
+                    <h3>PHP</h3>
+                    <figure class="pull-right">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABRCAMAAADo8MTiAAAAq1BMVEV3e7P///8AAABzd7GsrKyChrlHS4hFSYduc69tbW2eoshxdbDDxdyustV6frYwMDCUlJRiYmJzd6l4fK2AhLOKjr34+PzJyck7P4Nrb61VWZOorNFaXpbm5/C+vr6JiYlrb6PV1dUxNn4nJydTU1OVmcLn5+d9fX0ZGRnb3OpLS0tCQkJmaqPQ0eM3NzednZ2NkLV9f6e2uNSrrMRgZagmLHqYmrq5us4QEBBGSodxAAAJc0lEQVRogc2aC3eiPBCGzSIXBak3oiLUS9WWFqpia/f//7JvkkASICB2u2e/2T179ggmjzNvkpkkHfT/tM6/BqixP+PCYRglSeI4TpqmA7DlcgD/c5wkCvE/4MKA46RAQW3AbLnsg+2pebo+cfX9MnWi7/HdzYXDxBlINJIxMIbmgU2n08l4HY9PlyT8q1wZkgDpk/51XXfdjqaRv2Cu6+rEptQmE0Bbx358utzludZcOHE4EuHRdeBgJPXmwp/JeAxk63Xg++dLa7+14sIh8VOG5OmuZt/gqRhwxUEQ+GZwSlq5rQUXgWJMe8+96aJa0xiZPzfaoN3iwgmDAj+530bKDEQYA5hvbo3rrYA2cuEopeFb7kFMTa7g1sJtsW8Y5ny7/mp0WgMXTtI2UGD7fmZ7u43ftMAwTXPrN42CWq4sgH3vFlRnEYlvDVqBuR3mNLM+nDVcjApc1UZSaLYbUduhxGrDRdCo04CsJppqrohKHZTeogdtj4a/mL219Bcj68SEzLgoyVRcIdHV8nYAmdkD9JpxDdH+niGbkQVJKy7sEF3tW1KBvBL0knE9orZhlMhAZ+eqzCpcIRHWvlUEM67wkGH9OuDFfVyELDCNuVFxWZmLOGvZSu25aegx52ove5nMJsG8NnLhQZ+E8B4ryD5tL3vZYnDZOqznCpeAdZezqOx3GdfqPtnLjZCJNqrjCvv9Zd8tfsNiyZRsrvWxEH6xEvSUcXWRK72h1bbguouFVfKsD7FM1FzRvr8sx9BKy4Kk4Y5Sb5H1K8tefsPZM3hLNQuQeVtfFJwL8t86Kq4QsLxyHD7woVuxxw11Lht7GprlXKU3cEpGgY42NS1Ee3n0ugQsqXKF+32/ggVrTPeXyt668A0XHKJ56Kh842l4gDc0GBbPyue7R1Qcvi6ofxuVuTDkBFUsaHWlbBXsiBB8QVuiUd0bQ4SJEF5rHv9+RKHcI3jMnIclLlLEVL1lp+i9rtdfO4T0juVw2VftGSUfEa5/vkKhVQILilyOp8Iia0xtowQstED2v+vfmCE93DS0sEJJQWO+kU+wjCvU93u3itVZ4KZWIZRLC88aXhihFD82PAfwongM4zOUuPoeJKUqE2vMcUhttZObPYRC9i89ZqMH8fwdh1yg76yB4bOst7eSwyDBCARXpHueikqS/YOYWjZC6F004LJfiTf4CPwNU9qu+nwmRLvBhR4hkmwWo1xQNauiKKdWKzQgpb23HyRSvyMUotw9XcTS/GWK0VvuwwPC4rknWshfgDFbDKRtmn7OFbqeYubqUNn/5q2yhEyzFy7mM/w7Rlz2G/TBaqKFmLLgORfoAdOxR17wxFw8Qv3CikQclmRcqe6p1bUQBBv8kX8KU1IemxcsekBRphS7j3rZZzCViCQo4gBQqeSfvpZTb1DYKeOaqNXVkWXPe+2QqTTvF/STrwcPyLE4dx79HuIC3SGHA1giDq+V3MgwtowrHNe4S0qtnnivVHW51p8wR3xG/UwLlvBGV8j+WUqCrET2V1FCbkBXI+ByJlOl6uXUSvTaIVN87o83xNeDI+I/R4o+wvnzLhINS+QjqWFmsTG/UK5LHZclKgpIraRWeb89dHjhCDzQPLYwHCWBiv4tMV0fUXnIwYg8Ua7rtIZLlj3isu+4otWVLPss0FIG8Yrk50JHushBZrjSt2muKZc3nSqxChVFyL0Bw43nGDPumidZ9nn0Qfa5QF9l2QshvBzCcgnl0hmsgUtKrV4k2VtiKpVk3xOyT2TZ5yNEFqgmorurlirAZVCu06SGayD9cN7qIhWp4kpM3EcuQFspe/GczNb5r4FKuDJFcX9dx2p9SalVLnvNgijxbiGhP+RvzG7KnvlFW3QSIY93aVrkluvrMp4o/SVVFDMqe9frO7Cw8DxviMQqwzuA6Ofye5Nkj+mwgBYSLLDAXdWsj49Hp4ZLqiggzyYG8/BhyBt9Q6ILIXtIcXNNFWTPW9jwIMILSdVdfP4K44kSTKooNjNij91nngfQKKZ8RuihZaZftexHM9bCsSfl5e+4OknQhZvN92it5LIbKgpiMzRIJdnnS5ktRx+/1XyZ+vigrM8NY56t22qBgewfGlrdIEeqKYTsxaQny15h7wfUV2yzSPmEOpCNFcXbATkLaTnBeWFTlH1DdTBCSiwI42eU56snlcPshooCasfBApYT7hqV7KFndckL9vSIsKfa/LGyUo3l97ECzKsptX/tSK2t2/JC2OPZiiT7I6oTaA9q7UhTYeXpalYPndbj8htan7f6kFU6vefVsMv2JizmmuesBOpy2VshHmUfwps8HxItHB/J9krkKXcW3ZhOqqJ+jMdlMEn2RyRblGY7MeAvbjiXii1v30gjUzIcDTqWeqNMM4v1I/qqgIHsX3ir2YHG3tMXC9GkrefnHFLtYInDD3lY5J95ir0vYT6dUyUuEskimFRI43BRc/yjOhfKP7JFlvUO83qLAyQQVxZFaT9nPC6CSbL/1nYuEahIgpYtNjjJtomJS1woXBfApFZH95xiCJOyv2E1m1Fj8W0meb8wlkMJrYrUqUWrVZPTEcU6qMIS23KF/VUZTJL9I7r7tICakP0hvO3w0sZvYT96LcAsudVvcelSyXtLoK5GjmPkjfLi/v2EgxVk/x153SNQN4Ykwi8cLJTOO04xUz+0+vz0QOypV66I2xkIdJS1cFP25IjoXDzuK58PfTGRyXM5Uu8S3DBb2vlvlL1Lj9QuJY7qedqUuszuO7n1v3foow14C+pdLEal+eCsICpjKM5FL8RlYyh9Mvv2hQneQgNVQJylOExWntee4vW4spD/vGWnouuKs2q4EEomf5/M1egpsv+lJKi7D/A1/rtkru03nLo33Z8gZOUk46egtNhnNztq75w03TdxpsH6551GL3WYhrkNmm7CNN8biq5xTO5u/Rgag4IAzs/Kc8mWXCScU5+irX+AyWaemm+DmxfU2tz/ukwytG+zuYwpg7qqJob7uSja2Q8ytjtj6rJbX5TJnH+2gmrNhcgouK6BLV7HxNb2jbteLrGOFRMvARJlMs5fP3u/MLfw6zo2/CC3jNDmBYVGiw6bfBz4FMik/8y3n8GpPdPdXMRwlF7HvuELPHprkJrBzCQOokCEaBucL+3uOv4RF7Mw+bqe1v4cHEJwJCo6Ccy328/PeXC+fuNG7R9xZUbuI39dLtfr6Xw+k0rvfD6drtdL+o/uR/99+79y/QfI/ff1H04iHQAAAABJRU5ErkJggg==">
+                    </figure>
+                    <p style="text-align: justify">Hypertext Preprocessor, plus connu sous son sigle PHP, est un
+                        langage de programmation libre, et aussi principalement utilisé pour produire des pages Web dynamiques
+                        via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété
+                        de façon locale. PHP est un langage impératif orienté objet</p>
+					<br>
+					<img src="img/phpad2.jpg">
+					<p style="text-align: justify">Maintenant que l'application est démarrée avec succès, toutes les
+						informations de votre profil ont également été transférées sur le serveur Web. Vous pouvez
+						y accéder en visitant le site Web et en vous connectant.</p>
+					<h3>Access Web App</h3>
+					<p style="text-align: justify">Un bouton qui vous redirige vers le site en utilisant votre
+						navigateur par défaut (chrome est recommandé)</p>
+					<h3>Send Face Unlock Signal</h3>
+					<p style="text-align: justify">Une fois qu'un utilisateur est reconnu, son profil est créé et
+						sauvegardé. Vous pouvez utiliser ces informations pour envoyer au serveur Web un signal lui
+						permettant d'accéder directement à sa plate-forme à l'aide de ses données de reconnaissance faciale.</p>
+                    <br><br><br><br><br><br>
+                    <p style="text-align: justify">les utilisateurs sont affichés avec leurs mots de passe générés, notez que
+                        Facial ne génère des mots de passe que pour les utilisateurs qui n'en ont pas.</p>
+                    <p style="text-align: justify">Lorsque l'utilisateur s'abonne à partir du site Web et ajoute
+                        l'addition faciale automatiquement aux profils non enregistrés, sa valeur formée serait fausse
+                        et son mot de passe serait enregistré et accessible à partir de l'application.</p>
+                    <p style="text-align: justify">Vous pouvez utiliser les mots de passe visualisés pour vous connecter
+                        manuellement à partir du site Web.</p>
+                    <p style="text-align: justify">Vous pouvez afficher des informations sur l'utilisateur actuel,
+                        telles que le mot de passe de l'application, à l'aide de l'icône de l'utilisateur dans la
+                        zone visuelle.</p>
+                    <br>
+                    <h3 style="text-align: center">Recevoir le signal</h3>
+                    <p style="text-align: justify">Après l'envoi du signal depuis l'interface de remote login,
+                        une boîte de dialogue indiquant que l'accès est accordé à un utilisateur spécifique s'affiche.</p>
+                    <img src="img/remote4.jpg">
+                    <br>
+                    <p style="text-align: justify">Après avoir cliqué sur ok, le listner devrait avoir reçu le signal.
+                        Vous pouvez voir le visage devenir vert et le bouton est prêt à être connecté.</p>
+                    <br><br><br><br><br>
+                    <figure class="pull-right">
+                        <img src="img/User%20res2.png">
+                    </figure>
+                    <p style="text-align: justify">Lorsqu'un utilisateur qui n'est pas enregistré à partir de
+                        l'application se connecte, sa photo de profil sera par défaut la même icône d'utilisateur
+                        dans la plate-forme facial</p>
+                    <p style="text-align: justify">La photo de profil des utilisateurs enregistrés sera ajoutée
+                        automatiquement par facial</p>
+                    <p style="text-align: justify">Les photos prises par facial seraient également affichées dans la galerie
+                        de sites Web. Il s’agirait simplement d’une stratégie permettant de partager vos multimédia depuis
+                        l'application sur le serveur et de les rendre visuelles, Il est pratique de partager des données
+                        sur le serveur et de créer le concept de cloud</p>
+                    <img src="img/share.jpg"><br><br>
+                    <p style="text-align: justify">Nous avons tellement apprécié le travail sur ce sujet.
+							Facial est notre première implémentation qui est toujours en développement. À l'avenir,
+							nous essaierons d'en apprendre d’avantage sur l'apprentissage approfondi par machine et
+							de faire évoluer notre application, afin qu'elle puisse suivre le progrès de
+							la technologie d'intelligence artificielle.</p>
+                    <br>
+                    <figure>
+                        <img src="https://salecology.com/public/images/m5u3A/4-tips-for-identifying-and-developing-high-performing-employees.png">
+                    </figure>
+				</div>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div><hr>
+    <p style="text-align: center"><img src="img/end.png"></p>
+</div>
+
+<!-- /SECTION -->
+<a href="#" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>
+<!-- jQuery Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/main.js"></script>
+<style type="text/css">
+	.float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:40px;
+		right:40px;
+		background-color:#0C9;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		box-shadow: 2px 2px 3px #999;
+	}
+	.n1
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #FF5F00;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt
+	{
+		text-decoration: none;
+		color: #FF5F00;
+	}
+	.n2
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #1FA100;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt2
+	{
+		text-decoration: none;
+		color:#1FA100;
+	}
+	.n3
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #8100FF;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt3
+	{
+		text-decoration: none;
+		color:#8100FF;
+	}
+	.n4
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #D30055;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt4
+	{
+		text-decoration: none;
+		color:#D30055;
+	}
+	.n5
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #007DF3;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt5
+	{
+		text-decoration: none;
+		color:#007DF3 ;
+	}
+	.n6
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #724104;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt6
+	{
+		text-decoration: none;
+		color:#724104;
+	}
+	.n7
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #00C7AB;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt7
+	{
+		text-decoration: none;
+		color:#00C7AB;
+	}
+	.n8
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #535353;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt8
+	{
+		text-decoration: none;
+		color:#535353;
+	}
+</style>
+<div class="post-nav">
+	<footer class="panel-footer">
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			<a href="mailto:alaouiismaili28@gmail.com">By Ismaili Alaoui Hamza</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+</div>
+</body>
+
+</html>

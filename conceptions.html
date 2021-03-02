@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>ShowME: Report Viewer</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<!-- HEADER -->
+<header id="header">
+    <!-- NAV -->
+    <div id="nav">
+        <!-- Top Nav -->
+        <div id="nav-top">
+            <div class="container">
+                <!-- social -->
+                <ul class="nav-social">
+                    <li><a href="https://www.facebook.com/bicalool.ismaili"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="mailto:alaouiismaili28@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+                <!-- /social -->
+
+                <!-- logo -->
+                <div class="nav-logo">
+                    <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <!-- /logo -->
+
+                <!-- search & aside toggle -->
+                <div class="nav-btns">
+                    <button class="aside-btn"><i class="fa fa-bars"></i></button>
+                    <div id="nav-search">
+                        <form>
+                            <input class="input" name="search" placeholder="Enter your search...">
+                        </form>
+                        <button class="nav-close search-close">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- /search & aside toggle -->
+            </div>
+        </div>
+        <!-- /Top Nav -->
+
+        <!-- Main Nav -->
+        <div id="nav-bottom">
+            <div class="container">
+                <!-- nav -->
+                <ul class="nav-menu">
+                    <li class="has-dropdown">
+                        <a href="index.html">Introduction</a>
+                        <div class="dropdown">
+                            <div class="dropdown-body">
+                                <ul class="dropdown-list">
+                                    <li><a href="index.html#python">Python</a></li>
+                                    <li><a href="index.html#opencv">OpenCV</a></li>
+                                    <li><a href="index.html#facial">Facial</a></li>
+                                    <li><a href="index.html#navigate">Navigation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown megamenu">
+                        <a href="conceptions.html" style="color: #259799">Conception</a>
+                        <div class="dropdown tab-dropdown">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <ul class="tab-nav">
+                                        <li class="active"><a data-toggle="tab" href="#tab1">Conception Générale</a></li>
+                                        <li><a data-toggle="tab" href="#tab2">détection et Reconaissance</a></li>
+                                        <li><a data-toggle="tab" href="#tab3">Filtres et Effets</a></li>
+                                        <li><a data-toggle="tab" href="#tab4">Gestion Media</a></li>
+                                        <li><a data-toggle="tab" href="#tab5">Sécurité</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="dropdown-body tab-content">
+                                        <!-- tab1 -->
+                                        <div id="tab1" class="tab-pane fade in active">
+                                            <h2>Diagrammes du Conception Générale</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#u1"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#u1">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#s1"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#s1">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#c1"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#c1">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab1 -->
+
+                                        <!-- tab2 -->
+                                        <div id="tab2" class="tab-pane fade in">
+                                            <h2>Diagrammes du System de détection et Reconaissance</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u2"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="u2">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s2"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#s2">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c2"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#c2">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab2 -->
+
+                                        <!-- tab3 -->
+                                        <div id="tab3" class="tab-pane fade in">
+                                            <h2>Diagrammes du System des Filtres et Effets</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#u3"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#u3">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#s3"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#s3">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#c3"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#c3">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab3 -->
+
+                                        <!-- tab4 -->
+                                        <div id="tab4" class="tab-pane fade in">
+                                            <h2>Diagrammes de Gestion Media</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#u4"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#u4">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#s4"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#s4">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#c4"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#c4">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab4 -->
+
+                                        <!-- tab5 -->
+                                        <div id="tab5" class="tab-pane fade in">
+                                            <h2>Diagrammes de System Sécurité</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#u5"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#u5">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#s5"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#s5">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="#c5"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="#c5">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab5 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown megamenu">
+                        <a href="chapters.html">Les Chapitres</a>
+                        <div class="dropdown">
+                            <div class="dropdown-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h4 class="dropdown-heading">Chapitre 1 La Plateforme</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#gc">Conception</a></li>
+                                            <li><a href="chapters.html#p1">Interface Principale</a></li>
+                                            <li><a href="chapters.html#p2">Zone Menu Principal</a></li>
+                                            <li><a href="chapters.html#p3">Zone Visuelle</a></li>
+                                            <li><a href="chapters.html#p4">Zone Configuration</a></li>
+                                            <li><a href="chapters.html#p5">Personalisation d'interface</a></li>
+                                            <li><a href="chapters.html#navigate">Navigation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="dropdown-heading">Chapitre 2 La Vision Machine</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#fc">Conception</a></li>
+                                            <li><a href="chapters.html#det">détection</a></li>
+                                            <li><a href="chapters.html#rec">Reconaissance</a></li>
+                                            <li><a href="chapters.html#navigate2">Navigation</a></li>
+                                        </ul>
+                                        <h4 class="dropdown-heading">Chapter 3 Filtres et Effets</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#lc">Conception</a></li>
+                                            <li><a href="chapters.html#fil">Filtres</a></li>
+                                            <li><a href="chapters.html#eff">Effets</a></li>
+                                            <li><a href="chapters.html#navigate3">Navigation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="dropdown-heading">Chapter 4 Gestion du Media</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#tc">Conception</a></li>
+                                            <li><a href="chapters.html#gp">Gestion des Photos</a></li>
+                                            <li><a href="chapters.html#rv">Gestion des Vidéos</a></li>
+                                            <li><a href="chapters.html#navigate4">Navigation</a></li>
+                                        </ul>
+                                        <h4 class="dropdown-heading">Chapter 5 Sécurité</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#lc">Conception</a></li>
+                                            <li><a href="chapters.html#srm">Mode Entregistrement Intelligent</a></li>
+                                            <li><a href="chapters.html#rl">Connexion avec Reconaissance Faciale</a></li>
+                                            <li><a href="chapters.html#navigate5">Navigation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="dropdown-heading" style="color: #00adf2;">Technologies</h4>
+                                        <ul class="dropdown-list">
+                                            <li><a href="https://www.python.org/">Python</a></li>
+                                            <li><a href="https://opencv.org/">OpenCV</a></li>
+                                            <li><a href="https://www.mysql.com/fr/">MySQL</a></li>
+                                            <li><a href="https://php.net/">PHP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="index.html#downrapp">Téléchargements</a></li>
+                </ul>
+                <!-- /nav -->
+            </div>
+        </div>
+        <!-- /Main Nav -->
+
+        <!-- Aside Nav -->
+        <div id="nav-aside">
+            <ul class="nav-aside-menu">
+                <li class="has-dropdown"><a>Introduction</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html#python">Python</a></li>
+                        <li><a href="index.html#opencv">OpenCV</a></li>
+                        <li><a href="index.html#facial">Facial</a></li>
+                        <li><a href="index.html#navigate">Navigation</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a>Conception</a>
+                    <ul class="dropdown">
+                        <li class="has-dropdown"><a>Conception Générale</a>
+                            <ul class="dropdown">
+                                <li><a href="#u1">Diagramme de Cas d'Utilisations</a></li>
+                                <li><a href="#s1">Diagramme de Séquences</a></li>
+                                <li><a href="#c1">Diagramme de Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>détection & Reconaissance</a>
+                            <ul class="dropdown">
+                                <li><a href="#u2">Diagramme de Cas d'Utilisations</a></li>
+                                <li><a href="#s2">Diagramme de Séquences</a></li>
+                                <li><a href="#c2">Diagramme de Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Filtres & Effets</a>
+                            <ul class="dropdown">
+                                <li><a href="#u3">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="#s3">Diagramme de Séquences</a></li>
+                                <li><a href="#c3">Diagramme de Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Gestion Media</a>
+                            <ul class="dropdown">
+                                <li><a href="#u4">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="#s4">Diagramme de Séquences</a></li>
+                                <li><a href="#c4">Diagramme de Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Sécurité</a>
+                            <ul class="dropdown">
+                                <li><a href="#u5">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="#s5">Diagramme de Séquences</a></li>
+                                <li><a href="#c5">Diagramme de Classes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a>Les Chapires</a>
+                    <ul class="dropdown">
+                        <li class="has-dropdown"><a>Chapitre 1 La plateforme</a>
+                            <ul class="dropdown">
+                                <li><a href="chapters.html#ch1">Explore</a></li>
+                                <li><a href="#gc">Conception</a></li>
+                                <li><a href="chapters.html#p1">Interface Principale</a></li>
+                                <li><a href="chapters.html#p2">Zone Menu Principal</a></li>
+                                <li><a href="chapters.html#p3">Zone Visuelle</a></li>
+                                <li><a href="chapters.html#p4">Zone Configuration</a></li>
+                                <li><a href="chapters.html#p5">Personalisation d'interface</a></li>
+                                <li><a href="chapters.html#navigate">Navigation</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Chapitre 2 La Vision Machine</a>
+                            <ul class="dropdown">
+                                <li><a href="chapters.html#ch2">Explore</a></li>
+                                <li><a href="#fc">Conception</a></li>
+                                <li><a href="chapters.html#det">détection</a></li>
+                                <li><a href="chapters.html#rec">Reconaissance</a></li>
+                                <li><a href="chapters.html#navigate2">Navigation</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Chapter 3 Filtres et Effets</a>
+                            <ul class="dropdown">
+                                <li><a href="chapters.html#ch3">Explore</a></li>
+                                <li><a href="#lc">Conception</a></li>
+                                <li><a href="chapters.html#fil">Filtres</a></li>
+                                <li><a href="chapters.html#eff">Effets</a></li>
+                                <li><a href="chapters.html#navigate3">Navigation</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Chapter 4 Gestion du Media</a>
+                            <ul class="dropdown">
+                                <li><a href="chapters.html#ch4">Explore</a></li>
+                                <li><a href="#tc">Conception</a></li>
+                                <li><a href="chapters.html#gp">Gestion des Photos</a></li>
+                                <li><a href="chapters.html#rv">Gestion des Vidéos</a></li>
+                                <li><a href="chapters.html#navigate4">Navigation</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Chapter 5 Sécurité</a>
+                            <ul class="dropdown">
+                                <li><a href="chapters.html#ch5">Explore</a></li>
+                                <li><a href="#lc">Conception</a></li>
+                                <li><a href="chapters.html#srm">Mode Entregistrement Intelligent</a></li>
+                                <li><a href="chapters.html#rl">Connexion avec Reconaissance Faciale</a></li>
+                                <li><a href="chapters.html#navigate5">Navigation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="index.html#downrapp">Téléchargements</a></li>
+            </ul>
+            <button class="nav-close nav-aside-close"><span></span></button>
+        </div>
+        <!-- /Aside Nav -->
+    </div>
+    <!-- /NAV -->
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 text-center">
+                    <h1 class="text-uppercase">CONCEPTION</h1>
+                    <p class="lead">Les diagrammes de modélisation d'application </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /PAGE HEADER -->
+</header>
+<!-- /HEADER -->
+
+<!-- section -->
+<div class="section">
+    <!-- general conception -->
+    <div id="gc" class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <h1 style="text-align: center">Générale Conception</h1>
+                    <hr>
+                    <p style="text-align: justify">Notre programme est généralement utilisé pour interagir avec
+                        l'utilisateur. Ansi une interface plus facile à utiliser d'une part et d'autre part une tâche difficile à accomplir.
+                        L'utilisateur doit pouvoir être reconnu et détecté au moment où il ouvre l'application, faire
+                        des captures, enregistrer des vidéos, appliquer des filtres et des effets ...</p>
+                    <hr>
+                    <h3 id="u1">Diagramme de cas d'utilisation</h3>
+                    <li>Un utilisateur peut lancer la détection du Visage, chaque détection active la reconnaissance faciale, pour un nouveau utilisateur il faut qu'il soumet les informations du Profile.</li>
+                    <li>Un utilisateur peut authentifier au site, et chaque authentification exige que la détection soit activée.</li>
+                    <li>Un utilisateur peut enregister des Vidéos avec deux manière, soit automatiqe soit manuelle, un enregistrement automatique exige la détection du Visage.</li>
+                    <li>Un utilisateur peut appliquer un filtre snapchot.</li>
+                    <li>Un utilisateur peut personaliser les données, editer les images enregistrées, changer le theme, appliquer un filtre snapchot, segmenter les couleurs ou bien activer la détection du Visage.</li>
+                    <br>
+                    <figure>
+                        <img src="./img/u1.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="s1">Diagramme de sequénces</h3>
+                    <p>un utilisateur peut généralement effectuer 4 tâches ou séquences :</p>
+                    <li> 1 détection ou reconnaissance : l'utilisateur demande depuit l'interface au moteur d'activer la détection et la reconnaissance faciale, après réaliser la tâche le moteur demande au Serveur de faire une mise à jour dans la base de données et renvoi le Résultat du détection à l'interface qui les affichent</li>
+                    <li>2 Appliquation d'un filtre ou d'un effet : l'utilisateur utilise l'interface pour choisir quel filtre ou effet il veut appliquer puis l'interface contact le moteur pour affectuer la tâche et ce dernier revoi le résultat à l'interface qui va afficher ce Résultat à l'utilisateur</li>
+                    <li>3 Enregistrement Vidéo : l'utilisateur demande d'enregister une vidéo depuis l'interface, cette dernière va envoyer la requête au Moteur qui va lancer l'enregistrement et rependre à l'interface afin d'afficher un message de validation à l'utilisateur, le Moteur se charge d'envoyer les données au Serveur qui les enregistre dans le Media</li>
+                    <li>4 Connexion au Site Web : l'utilisateur va essaiyer d'accéder au Serveur qui va lui demander d'entrer sin nom d'utilisateur et le mot de passe, l'utilisateur va effectuer soit une authentification normale soit automatique, Le Serveur va lui renvoyer la page web après qu'il recoit le signal d'autorisation</li>
+                    <br>
+                    <figure>
+                        <img src="./img/s1.jpg" alt="">
+                    </figure>
+                </div>
+                
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="c1">Diagramme de classes</h3>
+                    <p style="text-align: justify;">- Un Profile peut accéder au Visioneur</p>
+                    <p style="text-align: justify;">- Un Visioneur peut initialiser l'interface GUI et un Moteur</p>
+                    <p style="text-align: justify;">- Un Moteur va controller un Detecteur, gérer le Media, et utiliser un Enregistreur et un Editeur</p>
+                    <p style="text-align: justify;">- Un Media peut être soit une Image soit une Video et peut être envoyer au Serveur</p>
+                    <p style="text-align: justify;">- Une Image peut être editer par un Editeur</p>
+                    <p style="text-align: justify;">- Une Video peut être enregister par un Enregistreur</p>
+                    <p style="text-align: justify;">- Un Profile peut se connecter au Serveur</p>
+                    <br>
+                    <figure>
+                        <img src="./img/c1.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://www.visual-paradigm.com/download/?platform=windows&arch=64bit">Télécharger Visual Paradigm</a></li>
+                            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjX0Jrj6bPiAhVP53cKHRhgDl0YABAAGgJlZg&ohost=www.google.com&cid=CAASEuRoSKAgyqr3nTrru7mCdfz5Mg&sig=AOD64_1fgM9MnDCfk7tqU0WmCadM-zzCqQ&q=&ved=2ahUKEwjqnJXj6bPiAhWL5KQKHeolB9MQ0Qx6BAgIEAE&adurl=&bg=!iomliZFELyYm-ELSw_ECAAABq1IAAABDCgBLPwbhin531UZ6qxDAcFt5MJbRmVHskcg-ACh_gFBsV1n9WouYEobM-5vNURMVqIbJI5oZJaxLZh_VfwouUHG3kDTRvtIraEdl1CwJmQDemIVxTEgnfLRtIX6PgAGLb8bWPudDTUsd5_ZDbcKhYyn37pHA6g4c7W_H7AYpDXYbQP4LmuJ7EMRbq2tA8sTf-A7GVwvO5ECxnYKNwGO0apeGTjHUxLvqR-gP1y4BYj2D-ho0XmKdKuLACtN2Cbe_wqyiHgYErxaDuveNwdObH6CSIo76t1iaYUW1mmixdn8C5D2Q8da7ZtbFFYpbFWitnSGPovenmISHZD1-yrqV7xVXW3Y6HBdqt_N-_Yw6KRABZaAneX-P-nZoxp9TrgqHPele7QAicg3PSIJH0Ig6">Visitez Lucichard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate" style="text-align: right;">Vers Navigation</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="chapters.html#ch1" style="text-align: right;">Aller vers ce Chapitre</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#gc">Générale Conception<span>1</span></a></li>
+                            <li><a href="#u1" style="margin-left: 22px;">CAS D'UTILISATION<span>1.1</span></a></li>
+                            <li><a href="#s1" style="margin-left: 22px;">SEQUENCES<span>1.2</span></a></li>
+                            <li><a href="#c1" style="margin-left: 22px;">CLASSES<span>1.3</span></a></li>
+                            <li><a href="#navigate2">DéTECTION & RECONAISSANCE<span>2</span></a></li>
+                            <li><a href="#navigate3">FILTRES & EFFETS<span>3</span></a></li>
+                            <li><a href="#navigate4">GESTION MEDIA<span>4</span></a></li>
+                            <li><a href="#navigate5">SECURITE<span>5</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+                <div>
+                    <h3 style="text-align: center">Apprendre la conception orienté object</h3>
+                    <br>
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/zid-MVo7M-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="n5">
+                        <a class="natt5" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwikq-Sv5bPiAhXMsKQKHTv-BxMQFjACegQIDhAK&url=https%3A%2F%2Fwww.smartdraw.com%2Fuse-case-diagram%2F&usg=AOvVaw1paPH3m325jLG07S4AOK-M">En savoir plus sur le cas d'utilisation</a><hr>
+                        <p>Un diagramme de cas d'utilisation est un diagramme dynamique ou de comportement en UML.
+                            Les diagrammes...</p>
+                    </div>
+                    <div class="n5">
+                        <a class="natt5" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20usecase.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/pCK6prSq8aw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="n2">
+                        <a class="natt2" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwiE_qXh5rPiAhUD6aQKHYMaB8QQFjACegQIDRAK&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Funified-modeling-language-uml-sequence-diagrams%2F&usg=AOvVaw3gbsW3koOv0UELIv2-dHRB">En savoir plus sur les sequences</a><hr>
+                        <p>Un diagramme de séquence décrit simplement les interactions entre les objets dans un ordre
+                            séquentiel, c’est-à-dire l’ordre dans lequel ces interactions ont lieu. Nous pouvons
+                            également utiliser les termes diagrammes d'événements ou scénarios d'événement pour faire
+                            référence à un diagramme de séquence. Les diagrammes de séquence décrivent comment et dans
+                            quel ordre les objets d'un système fonctionnent.</p>
+                    </div>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq2.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq.pdf">Afficher le schéma complet</a><hr>
+                        <p></p>
+                    </div>
+                    <br><br><br><br>
+                    <br><br><br><br>
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/UI6lqHOVHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="n1">
+                        <a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwi2j-CA6bPiAhWiPOwKHSdbCBMQFjABegQIBBAB&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FDiagramme_de_classes&usg=AOvVaw04K3xpdlvTSitdlDvabxIt">En savoir plus sur les diagrammes de classes</a><hr>
+                        <p>Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes
+                            et les interfaces des systèmes ainsi que les différentes relations entre celles-ci. Ce
+                            diagramme fait partie de la partie statique d'UML car il fait abstraction des aspects
+                            temporels et dynamiques</p>
+                    </div>
+                    <div class="n1">
+                        <a class="natt1" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div><hr>
+    <!-- first conception -->
+    <div id="fc" class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <h1 style="text-align: center">Conception du Système de détection et reconnaissance</h1>
+                    <hr>
+                    <h3 id="u2">Diagramme de cas d'utilisation</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/u2.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="s2">Diagramme de sequénces</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/s2.jpg" alt="">
+                    </figure>
+                </div>
+
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="c2">Diagramme de classes</h3>
+                    <br>
+                    <p><strong style="color: green">Classes necaissaires :</strong>Classes qui appellent les classes principales pour réaliser la tâche</p>
+                    <p><strong style="color: #99990a">Classes principales :</strong>Classes qui sont en charge de réaliser la tâche</p>
+                    <p>Les autres classes se sont secondaires, soit rarement ou pas utilisées pour cette tâche</p>
+                    <h4>Analyse de la tâche : Détection et Reconnaissance Faciale</h4>
+                    <p style="text-align: justify">Le profile va acceder à l'interface GUI du Visionneur pour lancer la détection,
+                    l'interface lancera le Moteur qui se charge à utiliser le Détecteur et effectuer la détection puis envoyer les données
+                    au Serveur qui va retourner le resultat qui va être verifier par le Moteur pour qu'il identifie l'identité du Profile</p>
+                    <p style="text-align: justify">Donc le Moteur, le Détecteur, et le Serveur sont des <i style="color: #99990a">classes
+                     principales </i>et le Profile, le Visionneur, le GUI sont des <i style="color: green">classes
+                    necaissaires</i></p>
+                    <figure>
+                        <img src="./img/c2.jpg" alt="">
+                    </figure>
+                    <br>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://www.visual-paradigm.com/download/?platform=windows&arch=64bit">Télécharger Visual Paradigm</a></li>
+                            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjX0Jrj6bPiAhVP53cKHRhgDl0YABAAGgJlZg&ohost=www.google.com&cid=CAASEuRoSKAgyqr3nTrru7mCdfz5Mg&sig=AOD64_1fgM9MnDCfk7tqU0WmCadM-zzCqQ&q=&ved=2ahUKEwjqnJXj6bPiAhWL5KQKHeolB9MQ0Qx6BAgIEAE&adurl=&bg=!iomliZFELyYm-ELSw_ECAAABq1IAAABDCgBLPwbhin531UZ6qxDAcFt5MJbRmVHskcg-ACh_gFBsV1n9WouYEobM-5vNURMVqIbJI5oZJaxLZh_VfwouUHG3kDTRvtIraEdl1CwJmQDemIVxTEgnfLRtIX6PgAGLb8bWPudDTUsd5_ZDbcKhYyn37pHA6g4c7W_H7AYpDXYbQP4LmuJ7EMRbq2tA8sTf-A7GVwvO5ECxnYKNwGO0apeGTjHUxLvqR-gP1y4BYj2D-ho0XmKdKuLACtN2Cbe_wqyiHgYErxaDuveNwdObH6CSIo76t1iaYUW1mmixdn8C5D2Q8da7ZtbFFYpbFWitnSGPovenmISHZD1-yrqV7xVXW3Y6HBdqt_N-_Yw6KRABZaAneX-P-nZoxp9TrgqHPele7QAicg3PSIJH0Ig6">Visitez Lucichard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate2" style="text-align: right;">Vers Navigation</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="chapters.html#ch2" style="text-align: right;">Aller vers ce Chapitre</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate2">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">Générale Conception<span>1</span></a></li>
+                            <li><a href="#fc">détection & RECONAISSANCE<span>2</span></a></li>
+                            <li><a href="#u2" style="margin-left: 22px;">CAS D'UTILISATION<span>2.1</span></a></li>
+                            <li><a href="#s2" style="margin-left: 22px;">SEQUENCES<span>2.2</span></a></li>
+                            <li><a href="#c2" style="margin-left: 22px;">CLASSES<span>2.3</span></a></li>
+                            <li><a href="#navigate3">FILTRES & EFFETS<span>3</span></a></li>
+                            <li><a href="#navigate4">GESTION MEDIA<span>4</span></a></li>
+                            <li><a href="#navigate5">SECURITE<span>5</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+                <div>
+                    <div class="n5">
+                        <a class="natt5" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20usecase.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n1">
+                        <a class="natt" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div><hr>
+    <!-- second conception -->
+    <div id="sc" class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <h1 style="text-align: center">Conception des Filtres et Effets</h1>
+                    <hr>
+                    <h3 id="u3">Diagramme de cas d'utilisation</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/u3.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="s3">Diagramme de sequénces</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/s3.jpg" alt="">
+                    </figure>
+                </div>
+
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="c3">Diagramme de classes</h3>
+                    <br>
+                    <p><strong style="color: green">Classes necaissaires :</strong>Classes qui appellent les classes principales pour réaliser la tâche</p>
+                    <p><strong style="color: #99990a">Classes principales :</strong>Classes qui sont en charge de réaliser la tâche</p>
+                    <p>Les autres classes se sont secondaires, soit rarement ou pas utilisées pour cette tâche</p>
+                    <h4>Analyse de la tâche : Filtres et Effets</h4>
+                    <p style="text-align: justify">Le profile va accéder à l'interface GUI du Visionneur pour choisir le filtre ou l'effet,
+                        l'interface lancera le Moteur qui se charge à utiliser le Détecteur pour appliquer le filtre ou l'effet choisit</p>
+                    <p style="text-align: justify">Donc le Moteur et le Détecteur sont des <i style="color: #99990a">classes
+                        principales </i>et le Profile, le Visionneur, le GUI sont des <i style="color: green">classes
+                        necaissaires</i></p>
+                    <figure>
+                        <img src="./img/c3.jpg" alt="">
+                    </figure>
+                    <br>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://www.visual-paradigm.com/download/?platform=windows&arch=64bit">Télécharger Visual Paradigm</a></li>
+                            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjX0Jrj6bPiAhVP53cKHRhgDl0YABAAGgJlZg&ohost=www.google.com&cid=CAASEuRoSKAgyqr3nTrru7mCdfz5Mg&sig=AOD64_1fgM9MnDCfk7tqU0WmCadM-zzCqQ&q=&ved=2ahUKEwjqnJXj6bPiAhWL5KQKHeolB9MQ0Qx6BAgIEAE&adurl=&bg=!iomliZFELyYm-ELSw_ECAAABq1IAAABDCgBLPwbhin531UZ6qxDAcFt5MJbRmVHskcg-ACh_gFBsV1n9WouYEobM-5vNURMVqIbJI5oZJaxLZh_VfwouUHG3kDTRvtIraEdl1CwJmQDemIVxTEgnfLRtIX6PgAGLb8bWPudDTUsd5_ZDbcKhYyn37pHA6g4c7W_H7AYpDXYbQP4LmuJ7EMRbq2tA8sTf-A7GVwvO5ECxnYKNwGO0apeGTjHUxLvqR-gP1y4BYj2D-ho0XmKdKuLACtN2Cbe_wqyiHgYErxaDuveNwdObH6CSIo76t1iaYUW1mmixdn8C5D2Q8da7ZtbFFYpbFWitnSGPovenmISHZD1-yrqV7xVXW3Y6HBdqt_N-_Yw6KRABZaAneX-P-nZoxp9TrgqHPele7QAicg3PSIJH0Ig6">Visitez Lucichard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate2" style="text-align: right;">Vers Navigation</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="chapters.html#ch3" style="text-align: right;">Aller vers ce Chapitre</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate3">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">Générale Conception<span>1</span></a></li>
+                            <li><a href="#navigate2">détection & RECONAISSANCE<span>2</span></a></li>
+                            <li><a href="#sc">FILTRES & EFFETS<span>3</span></a></li>
+                            <li><a href="#u3" style="margin-left: 22px;">CAS D'UTILISATION<span>3.1</span></a></li>
+                            <li><a href="#s3" style="margin-left: 22px;">SEQUENCES<span>3.2</span></a></li>
+                            <li><a href="#c3" style="margin-left: 22px;">CLASSES<span>3.3</span></a></li>
+                            <li><a href="#navigate4">GESTION MEDIA<span>4</span></a></li>
+                            <li><a href="#navigate5">SECURITE<span>5</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+                <div>
+                    <div class="n5">
+                        <a class="natt5" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20usecase.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n1">
+                        <a class="natt" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div><hr>
+    <!-- third conception -->
+    <div id="tc" class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <h1 style="text-align: center">Conception du Gestion Media</h1>
+                    <hr>
+                    <h3 id="u4">Diagramme de cas d'utilisation</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/u4.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="s4">Diagramme de sequénces</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/s4.jpg" alt="">
+                    </figure>
+                </div>
+
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="c4">Diagramme de classes</h3>
+                    <br>
+                    <p><strong style="color: green">Classes necaissaires :</strong>Classes qui appellent les classes principales pour réaliser la tâche</p>
+                    <p><strong style="color: #99990a">Classes principales :</strong>Classes qui sont en charge de réaliser la tâche</p>
+                    <p>Les autres classes se sont secondaires, soit rarement ou pas utilisées pour cette tâche</p>
+                    <h4>Analyse de la tâche : Gestion Media</h4>
+                    <p style="text-align: justify">Le profile va accéder à l'interface GUI du Visionneur soit pour prendre des photos soit pour enregistrer une Vidéo,
+                        l'interface lancera le Moteur qui se charge à utiliser l'éditeur pour appliquer une édition à une Image et contacter le Serveur pour l'enregistrer,
+                        et va aussi utiliser l'enregistreur pour enregistrer et sauvegarder une vidéo dans le media pour pouvoir la lire aprés
+                    </p>
+                    <p style="text-align: justify">Donc le Moteur, l'Editeur, l'Enregistreur, et le Serveur sont des <i style="color: #99990a">classes
+                        principales </i>et le Profile, le Visionneur, le GUI, l'Image, et Vidéo sont des <i style="color: green">classes
+                        necaissaires</i></p>
+                    <figure>
+                        <img src="./img/c4.jpg" alt="">
+                    </figure>
+                    <br>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://www.visual-paradigm.com/download/?platform=windows&arch=64bit">Télécharger Visual Paradigm</a></li>
+                            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjX0Jrj6bPiAhVP53cKHRhgDl0YABAAGgJlZg&ohost=www.google.com&cid=CAASEuRoSKAgyqr3nTrru7mCdfz5Mg&sig=AOD64_1fgM9MnDCfk7tqU0WmCadM-zzCqQ&q=&ved=2ahUKEwjqnJXj6bPiAhWL5KQKHeolB9MQ0Qx6BAgIEAE&adurl=&bg=!iomliZFELyYm-ELSw_ECAAABq1IAAABDCgBLPwbhin531UZ6qxDAcFt5MJbRmVHskcg-ACh_gFBsV1n9WouYEobM-5vNURMVqIbJI5oZJaxLZh_VfwouUHG3kDTRvtIraEdl1CwJmQDemIVxTEgnfLRtIX6PgAGLb8bWPudDTUsd5_ZDbcKhYyn37pHA6g4c7W_H7AYpDXYbQP4LmuJ7EMRbq2tA8sTf-A7GVwvO5ECxnYKNwGO0apeGTjHUxLvqR-gP1y4BYj2D-ho0XmKdKuLACtN2Cbe_wqyiHgYErxaDuveNwdObH6CSIo76t1iaYUW1mmixdn8C5D2Q8da7ZtbFFYpbFWitnSGPovenmISHZD1-yrqV7xVXW3Y6HBdqt_N-_Yw6KRABZaAneX-P-nZoxp9TrgqHPele7QAicg3PSIJH0Ig6">Visitez Lucichard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate2" style="text-align: right;">Vers Navigation</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="chapters.html#ch4" style="text-align: right;">Aller vers ce Chapitre</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate4">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">Générale Conception<span>1</span></a></li>
+                            <li><a href="#navigate2">détection & RECONAISSANCE<span>2</span></a></li>
+                            <li><a href="#navigate3">FILTRES & EFFETS<span>3</span></a></li>
+                            <li><a href="#tc">GESTION MEDIA<span>4</span></a></li>
+                            <li><a href="#u4" style="margin-left: 22px;">CAS D'UTILISATION<span>4.1</span></a></li>
+                            <li><a href="#s4" style="margin-left: 22px;">SEQUENCES<span>4.2</span></a></li>
+                            <li><a href="#c4" style="margin-left: 22px;">CLASSES<span>4.3</span></a></li>
+                            <li><a href="#navigate5">SECURITE<span>5</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+                <div>
+                    <div class="n5">
+                        <a class="natt5" href="data/Diagrammes/MEDIA/Visual%20Paradigm%20Community%20Edition%20-%20facial%20usecase.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/MEDIA/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n1">
+                        <a class="natt" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div><hr>
+    <!-- last conception -->
+    <div id="lc" class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <h1 style="text-align: center">Conception des Filtres et Effets</h1>
+                    <hr>
+                    <h3 id="u5">Diagramme de cas d'utilisation</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/u5.jpg" alt="">
+                    </figure>
+                </div>
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="s5">Diagramme de sequénces</h3>
+                    <br>
+                    <figure>
+                        <img src="./img/s5.jpg" alt="">
+                    </figure>
+                </div>
+
+                <!-- /post content -->
+                <hr>
+                <!-- post content -->
+                <div class="section-row">
+                    <h3 id="c5">Diagramme de classes</h3>
+                    <br>
+                    <p><strong style="color: green">Classes necaissaires :</strong>Classes qui appellent les classes principales pour réaliser la tâche</p>
+                    <p><strong style="color: #99990a">Classes principales :</strong>Classes qui sont en charge de réaliser la tâche</p>
+                    <p>Les autres classes se sont secondaires, soit rarement ou pas utilisées pour cette tâche</p>
+                    <h4>Analyse de la tâche : Sécurité</h4>
+                    <p style="text-align: justify">Le profile va accéder à l'interface GUI du Visionneur pour lancer l'enregistrement intelligente,
+                        l'interface lancera le Moteur qui se charge à utiliser le Détecteur et l'Enregistreur pour enregister la Vidéo dans le Media</p>
+                    <p style="text-align: justify">Le profile va se connecter au site web aprés la connexion au Serveur,
+                        le Serveur va attendre le signal d'autorisation pour que le profile accéde à leur plateforme</p>
+                    <p style="text-align: justify">Donc le Moteur,le Détecteur, Serveur, et l'Enregistreur sont des <i style="color: #99990a">classes
+                        principales </i>et le Profile, le Visionneur, le GUI, Media, et Vidéo sont des <i style="color: green">classes
+                        necaissaires</i></p>
+                    <figure>
+                        <img src="./img/c5.jpg" alt="">
+                    </figure>
+                    <br>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://www.visual-paradigm.com/download/?platform=windows&arch=64bit">Télécharger Visual Paradigm</a></li>
+                            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjX0Jrj6bPiAhVP53cKHRhgDl0YABAAGgJlZg&ohost=www.google.com&cid=CAASEuRoSKAgyqr3nTrru7mCdfz5Mg&sig=AOD64_1fgM9MnDCfk7tqU0WmCadM-zzCqQ&q=&ved=2ahUKEwjqnJXj6bPiAhWL5KQKHeolB9MQ0Qx6BAgIEAE&adurl=&bg=!iomliZFELyYm-ELSw_ECAAABq1IAAABDCgBLPwbhin531UZ6qxDAcFt5MJbRmVHskcg-ACh_gFBsV1n9WouYEobM-5vNURMVqIbJI5oZJaxLZh_VfwouUHG3kDTRvtIraEdl1CwJmQDemIVxTEgnfLRtIX6PgAGLb8bWPudDTUsd5_ZDbcKhYyn37pHA6g4c7W_H7AYpDXYbQP4LmuJ7EMRbq2tA8sTf-A7GVwvO5ECxnYKNwGO0apeGTjHUxLvqR-gP1y4BYj2D-ho0XmKdKuLACtN2Cbe_wqyiHgYErxaDuveNwdObH6CSIo76t1iaYUW1mmixdn8C5D2Q8da7ZtbFFYpbFWitnSGPovenmISHZD1-yrqV7xVXW3Y6HBdqt_N-_Yw6KRABZaAneX-P-nZoxp9TrgqHPele7QAicg3PSIJH0Ig6">Visitez Lucichard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate2" style="text-align: right;">Vers Navigation</a><br>
+                <a href="index.html" style="text-align: right;">Aller vers Introduction</a><br>
+                <a href="chapters.html#ch5" style="text-align: right;">Aller vers ce Chapitre</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate5">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">Générale Conception<span>1</span></a></li>
+                            <li><a href="#navigate2">détection & RECONAISSANCE<span>2</span></a></li>
+                            <li><a href="#navigate3">FILTRES & EFFETS<span>3</span></a></li>
+                            <li><a href="#navigate4">GESTION MEDIA<span>4</span></a></li>
+                            <li><a href="#lc">SECURITE<span>5</span></a></li>
+                            <li><a href="#u5" style="margin-left: 22px;">CAS D'UTILISATION<span>5.1</span></a></li>
+                            <li><a href="#s5" style="margin-left: 22px;">SEQUENCES<span>5.2</span></a></li>
+                            <li><a href="#c5" style="margin-left: 22px;">CLASSES<span>5.3</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+                <div>
+                    <div class="n5">
+                        <a class="natt5" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20usecase.pdf">Afficher le schéma sous format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n2">
+                        <a class="natt2" href="data/Diagrammes/DET%20REC/Visual%20Paradigm%20Community%20Edition%20-%20facial%20seq.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                    <br>
+                    <div class="n1">
+                        <a class="natt" href="data/Diagrammes/GEN%20CONC/Visual%20Paradigm%20Community%20Edition%20-%20facial.pdf">Afficher le schéma sous Format PDF</a><hr>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div><hr>
+</div>
+<!-- /SECTION -->
+<a href="#" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>
+<!-- jQuery Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/main.js"></script>
+<style type="text/css">
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#0C9;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 2px 2px 3px #999;
+    }
+    .n1
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #FF5F00;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt
+    {
+        text-decoration: none;
+        color: #FF5F00;
+    }
+    .n2
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #1FA100;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt2
+    {
+        text-decoration: none;
+        color:#1FA100;
+    }
+    .n3
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #8100FF;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt3
+    {
+        text-decoration: none;
+        color:#8100FF;
+    }
+    .n4
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #D30055;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt4
+    {
+        text-decoration: none;
+        color:#D30055;
+    }
+    .n5
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #007DF3;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt5
+    {
+        text-decoration: none;
+        color:#007DF3 ;
+    }
+    .n6
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #724104;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt6
+    {
+        text-decoration: none;
+        color:#724104;
+    }
+    .n7
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #00C7AB;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt7
+    {
+        text-decoration: none;
+        color:#00C7AB;
+    }
+    .n8
+    {
+        background-color: white;
+        box-shadow: 0px 2px 5px #535353;
+        box-sizing: padding-box;
+        border-radius: 5px;
+        padding :5px;
+        margin: 19px;
+        color: black;
+        text-align:center;
+    }
+    .natt8
+    {
+        text-decoration: none;
+        color:#535353;
+    }
+</style>
+<div class="post-nav">
+    <footer class="panel-footer">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="mailto:alaouiismaili28@gmail.com">By Ismaili Alaoui Hamza</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+</body>
+
+</html>

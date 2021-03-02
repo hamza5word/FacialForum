@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>ShowME: Report Viewer</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+<!-- HEADER -->
+<header id="header">
+
+	<!-- NAV -->
+	<div id="nav">
+		<!-- Top Nav -->
+		<div id="nav-top">
+			<div class="container">
+				<!-- social -->
+				<ul class="nav-social">
+					<li><a href="https://www.facebook.com/bicalool.ismaili"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="mailto:alaouiismaili28@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				<!-- /social -->
+
+				<!-- logo -->
+				<div class="nav-logo">
+					<a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+				</div>
+				<!-- /logo -->
+
+				<!-- search & aside toggle -->
+				<div class="nav-btns">
+					<button class="aside-btn"><i class="fa fa-bars"></i></button>
+					<div id="nav-search">
+						<form>
+							<input class="input" name="search" placeholder="Enter your search...">
+						</form>
+						<button class="nav-close search-close">
+							<span></span>
+						</button>
+					</div>
+				</div>
+				<!-- /search & aside toggle -->
+			</div>
+		</div>
+		<!-- /Top Nav -->
+
+		<!-- Main Nav -->
+		<div id="nav-bottom">
+			<div class="container">
+				<!-- nav -->
+				<ul class="nav-menu">
+					<li class="has-dropdown">
+						<a href="index.html" style="color: #259799">Introduction</a>
+						<div class="dropdown">
+							<div class="dropdown-body">
+								<ul class="dropdown-list">
+									<li><a href="#python">Python</a></li>
+									<li><a href="#opencv">OpenCV</a></li>
+									<li><a href="#facial">Facial</a></li>
+									<li><a href="#navigate">Navigation</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="has-dropdown megamenu">
+						<a href="conceptions.html">Conception</a>
+						<div class="dropdown tab-dropdown">
+							<div class="row">
+								<div class="col-md-2">
+									<ul class="tab-nav">
+										<li class="active"><a data-toggle="tab" href="#tab1">Conception Générale</a></li>
+										<li><a data-toggle="tab" href="#tab2">détection et Reconaissance</a></li>
+										<li><a data-toggle="tab" href="#tab3">Filtres et Effets</a></li>
+										<li><a data-toggle="tab" href="#tab4">Gestion Media</a></li>
+										<li><a data-toggle="tab" href="#tab5">Sécurité</a></li>
+									</ul>
+								</div>
+								<div class="col-md-10">
+									<div class="dropdown-body tab-content">
+										<!-- tab1 -->
+										<div id="tab1" class="tab-pane fade in active">
+											<h2>Diagrammes du Conception Générale</h2>
+											<div class="row">
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#u1"><img src="./img/post-10.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#u1">Diagramme de cas d'utilisation</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#s1"><img src="./img/post-13.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#s1">Diagramme de Séquences</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#c1"><img src="./img/post-12.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#c1">Diagramme de classes</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+											</div>
+										</div>
+										<!-- /tab1 -->
+
+										<!-- tab2 -->
+                                        <div id="tab2" class="tab-pane fade in">
+                                            <h2>Diagrammes du System de détection et Reconaissance</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u2"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u2">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s2"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s2">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c2"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c2">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+										<!-- /tab2 -->
+
+										<!-- tab3 -->
+										<div id="tab3" class="tab-pane fade in">
+											<h2>Diagrammes du Système des Filtres et Effets</h2>
+											<div class="row">
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#u3"><img src="./img/post-10.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#u2">Diagramme de cas d'utilisation</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#s3"><img src="./img/post-13.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#s3">Diagramme de Séquences</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+
+												<!-- post -->
+												<div class="col-md-4">
+													<div class="post post-sm">
+														<a class="post-img" href="conceptions.html#c3"><img src="./img/post-12.jpg" alt=""></a>
+														<div class="post-body">
+															<div class="post-category">
+																<a href="conceptions.html#c3">Diagramme de classes</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /post -->
+											</div>
+										</div>
+										<!-- /tab3 -->
+
+                                        <!-- tab4 -->
+                                        <div id="tab4" class="tab-pane fade in">
+                                            <h2>Diagrammes de Gestion Media</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u4"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u4">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s4"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s4">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c4"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c4">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab4 -->
+
+                                        <!-- tab5 -->
+                                        <div id="tab5" class="tab-pane fade in">
+                                            <h2>Diagrammes de System Sécurité</h2>
+                                            <div class="row">
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#u5"><img src="./img/post-10.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#u5">Diagramme de cas d'utilisation</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#s5"><img src="./img/post-13.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#s5">Diagramme de Séquences</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+
+                                                <!-- post -->
+                                                <div class="col-md-4">
+                                                    <div class="post post-sm">
+                                                        <a class="post-img" href="conceptions.html#c5"><img src="./img/post-12.jpg" alt=""></a>
+                                                        <div class="post-body">
+                                                            <div class="post-category">
+                                                                <a href="conceptions.html#c5">Diagramme de classes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /post -->
+                                            </div>
+                                        </div>
+                                        <!-- /tab5 -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="has-dropdown megamenu">
+						<a href="chapters.html">Les Chapitres</a>
+						<div class="dropdown">
+							<div class="dropdown-body">
+								<div class="row">
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapitre 1 La Plateforme</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#gc">Conception</a></li>
+											<li><a href="chapters.html#p1">Interface Principale</a></li>
+											<li><a href="chapters.html#p2">Zone Menu Principal</a></li>
+											<li><a href="chapters.html#p3">Zone Visuelle</a></li>
+											<li><a href="chapters.html#p4">Zone Configuration</a></li>
+                                            <li><a href="chapters.html#p5">Personalisation d'interface</a></li>
+                                            <li><a href="chapters.html#navigate">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapitre 2 La Vision Machine</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#fc">Conception</a></li>
+											<li><a href="chapters.html#det">détection</a></li>
+											<li><a href="chapters.html#rec">Reconaissance</a></li>
+											<li><a href="chapters.html#navigate2">Navigation</a></li>
+										</ul>
+										<h4 class="dropdown-heading">Chapter 3 Filtres et Effets</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#sc">Conception</a></li>
+											<li><a href="chapters.html#fil">Filtres</a></li>
+											<li><a href="chapters.html#eff">Effets</a></li>
+											<li><a href="chapters.html#navigate3">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading">Chapter 4 Gestion du Media</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#tc">Conception</a></li>
+                                            <li><a href="chapters.html#gp">Gestion des Photos</a></li>
+                                            <li><a href="chapters.html#rv">Gestion des Vidéos</a></li>
+                                            <li><a href="chapters.html#navigate4">Navigation</a></li>
+										</ul>
+										<h4 class="dropdown-heading">Chapter 5 Sécurité</h4>
+										<ul class="dropdown-list">
+											<li><a href="conceptions.html#lc">Conception</a></li>
+											<li><a href="chapters.html#srm">Mode Entregistrement Intelligent</a></li>
+											<li><a href="chapters.html#rl">Connexion avec Reconaissance Faciale</a></li>
+											<li><a href="chapters.html#navigate5">Navigation</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<h4 class="dropdown-heading" style="color: #00adf2;">Technologies</h4>
+										<ul class="dropdown-list">
+											<li><a href="https://www.python.org/">Python</a></li>
+											<li><a href="https://opencv.org/">OpenCV</a></li>
+											<li><a href="https://www.mysql.com/fr/">MySQL</a></li>
+											<li><a href="https://php.net/">PHP</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="#downrapp">Téléchargements</a></li>
+				</ul>
+				<!-- /nav -->
+			</div>
+		</div>
+		<!-- /Main Nav -->
+
+		<!-- Aside Nav -->
+		<div id="nav-aside">
+			<ul class="nav-aside-menu">
+				<li class="has-dropdown"><a>Introduction</a>
+					<ul class="dropdown">
+						<li><a href="#python">Python</a></li>
+						<li><a href="#opencv">OpenCV</a></li>
+						<li><a href="#facial">Facial</a></li>
+						<li><a href="#navigate">Navigation</a></li>
+					</ul>
+				</li>
+				<li class="has-dropdown"><a>Conception</a>
+					<ul class="dropdown">
+						<li class="has-dropdown"><a>Conception Générale</a>
+							<ul class="dropdown">
+								<li><a href="conceptions.html#u1">Diagramme de Cas d'Utilisation</a></li>
+								<li><a href="conceptions.html#s1">Diagramme de Séquences</a></li>
+								<li><a href="conceptions.html#c1">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>détection & Reconaissance</a>
+							<ul class="dropdown">
+                                <li><a href="conceptions.html#u2">Diagramme de Cas d'Utilisation</a></li>
+                                <li><a href="conceptions.html#s2">Diagramme de Séquences</a></li>
+                                <li><a href="conceptions.html#c2">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Filtres & Effets</a>
+							<ul class="dropdown">
+								<li><a href="conceptions.html#u3">Diagramme de Cas d'Utilisation</a></li>
+								<li><a href="conceptions.html#s3">Diagramme de Séquences</a></li>
+								<li><a href="conceptions.html#c3">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Gestion Media</a>
+							<ul class="dropdown">
+								<li><a href="conceptions.html#u4">Diagramme de Cas d'Utilisation</a></li>
+								<li><a href="conceptions.html#s4">Diagramme de Séquences</a></li>
+								<li><a href="conceptions.html#c4">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Sécurité</a>
+							<ul class="dropdown">
+								<li><a href="conceptions.html#u5">Diagramme de Cas d'Utilisation</a></li>
+								<li><a href="conceptions.html#s5">Diagramme de Séquences</a></li>
+								<li><a href="conceptions.html#c5">Diagramme de Classes</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-dropdown"><a>Les Chapires</a>
+					<ul class="dropdown">
+						<li class="has-dropdown"><a>Chapitre 1 La Plateforme</a>
+							<ul class="dropdown">
+								<li><a href="chapters.html#ch1">Explore</a></li>
+								<li><a href="conceptions.html#gc">Conception</a></li>
+								<li><a href="chapters.html#p1">Interface Principale</a></li>
+								<li><a href="chapters.html#p2">Zone Menu Principal</a></li>
+								<li><a href="chapters.html#p3">Zone Visuelle</a></li>
+								<li><a href="chapters.html#p4">Zone Configuration</a></li>
+                                <li><a href="chapters.html#p5">Personalisation d'interface</a></li>
+                                <li><a href="chapters.html#navigate">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapitre 2 La Vision Machine</a>
+							<ul class="dropdown">
+								<li><a href="chapters.html#ch2">Explore</a></li>
+								<li><a href="conceptions.html#fc">Conception</a></li>
+								<li><a href="chapters.html#det">détection</a></li>
+								<li><a href="chapters.html#rec">Reconaissance</a></li>
+								<li><a href="chapters.html#navigate2">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 3 Filtres et Effets</a>
+							<ul class="dropdown">
+								<li><a href="chapters.html#ch3">Explore</a></li>
+								<li><a href="conceptions.html#sc">Conception</a></li>
+								<li><a href="chapters.html#fil">Filtres</a></li>
+								<li><a href="chapters.html#eff">Effets</a></li>
+								<li><a href="chapters.html#navigate3">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 4 Gestion du Media</a>
+							<ul class="dropdown">
+								<li><a href="chapters.html#ch4">Explore</a></li>
+								<li><a href="conceptions.html#tc">Conception</a></li>
+								<li><a href="chapters.html#gp">Gestion des Photos</a></li>
+								<li><a href="chapters.html#rv">Gestion des Vidéos</a></li>
+								<li><a href="chapters.html#navigate4">Navigation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a>Chapter 5 Sécurité</a>
+							<ul class="dropdown">
+								<li><a href="chapters.html#ch5">Explore</a></li>
+								<li><a href="conceptions.html#lc">Conception</a></li>
+								<li><a href="chapters.html#srm">Mode Entregistrement Intelligent</a></li>
+								<li><a href="chapters.html#rl">Connexion avec Reconaissance Faciale</a></li>
+								<li><a href="chapters.html#navigate5">Navigation</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#downrapp">Téléchargements</a></li>
+			</ul>
+			<button class="nav-close nav-aside-close"><span></span></button>
+		</div>
+		<!-- /Aside Nav -->
+	</div>
+	<!-- /NAV -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+				<br>
+				<h1>Facial : Application de détection et reconnaissance faciale</h1>
+				<figure>
+					<video class="videosize" onloadeddata="this.play();"  playsinline loop muted controls loop>
+						<source src="vids/Biteable.mp4" type="video/mp4" />
+						Your browser does not support the video tag or the file format of this video.
+					</video>
+				</figure>
+				<style>
+					.videosize {
+						padding-top: 40px;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				</style>
+			</div>
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget">
+					<p style="text-align: center"><img src="img/flogo.png"></p><br>
+					<figure><p style="text-align: center"><img src="img/slideshow.gif"></p></figure>
+					<p style="text-align: justify">La version web de notre rapport d'application facial, créé par nous
+						pour aider les lecteurs à faire l'expérience d'une vue flexible et d'un affichage interactif,
+						vous pouvez découvrir des sujets tout en les lisant et les explorer, commencez dès maintenant
+						par télécharger notre application.</p>
+					<p style="text-align: center"><a type="button" href="#downrapp" class="btn btn-success">Allez au téléchargements</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<!-- PAGE HEADER -->
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 text-center">
+					<h1 class="text-uppercase">INTRODUCTION</h1>
+					<p class="lead">La vision par ordinateur (aussi appelée vision artificielle ou vision numérique)
+                        est une branche de l'intelligence artificielle dont le principal but est de permettre à une
+                        machine d'analyser, traiter et comprendre une ou plusieurs images prises par un système
+                        d'acquisition </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /PAGE HEADER -->
+</header>
+<!-- /HEADER -->
+
+<!-- section -->
+<div class="section" id="python">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-8">
+
+				<!-- post content -->
+				<div class="section-row">
+                    <figure class="pull-right">
+                        <img src="./img/media-1.jpg" alt="">
+                    </figure>
+                    <h3>Python</h3>
+					<p style="text-align: justify">Python est un langage de programmation, dont la première version est
+                        sortie en 1991. Créé par Guido van Rossum, il a voyagé du Macintosh de son créateur, qui
+                        travaillait à cette époque au Centrum voor Wiskunde en Informatica aux Pays-Bas, jusqu'à se
+                        voir associer une organisation à but non lucratif particulièrement dévouée, la Python Software
+                        Foundation, créée en 2001. Ce langage a été baptisé ainsi en hommage à la troupe de comiques
+                        les « Monty Python ».</p>
+                    <p style="text-align: justify">Python est un langage de programmation interprété, multi-paradigme
+                        et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et
+                        orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire
+                        par ramasse-miettes et d'un système de gestion d'exceptions ; il est ainsi similaire à
+                        Perl, Ruby, Scheme, Smalltalk et Tcl. </p>
+                    <h4 id="inspython">Installer Python</h4>
+                    <p style="text-align: justify">L'installation de Python est très facile, aussi bien sous Windows
+                        que sous les systèmes Unix. Quel que soit votre système d'exploitation, vous devez vous rendre
+                        sur <a href="https://www.python.org/">le site officiel de Python</a> ou utilisez ce lien pour
+                        télécharger la même version que nous <a href="https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe">
+                        Python 3.7.0</a></p>
+                    <strong>NB: notre application est compatible avec python 3.7+</strong>
+                    <p style="text-align: justify">Après le téléchargement, ouvrez le fichier exécutable, une boîte de
+                        dialogue devrait apparaître</p>
+					<figure>
+						<img src="./img/media-2.jpg" alt="">
+					</figure>
+					<p style="text-align: justify">Pour plus de details sur l'installation du Python vous pouvez
+                        consulter <a href="https://realpython.com/installing-python/">Ce Lein</a></p>
+				</div>
+				<!-- /post content -->
+
+				<!-- post tags -->
+				<div class="section-row">
+					<div class="post-tags">
+						<ul>
+							<li>SOURCES:</li>
+							<li><a href="https://openclassrooms.com/fr/courses/235344-apprenez-a-programmer-en-python/230659-decouvrez-python">Python Histoire</a></li>
+							<li><a href="https://fr.wikipedia.org/wiki/Python_(langage)">Python Difinition</a></li>
+							<li><a href="https://realpython.com/installing-python/">Installation du Python sous Windows</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /post tags -->
+                <a href="#navigate" style="text-align: right;">Vers Navigation</a>
+			</div>
+			<div class="col-md-4">
+				<!-- category widget -->
+				<div class="aside-widget" id="navigate">
+					<div class="section-title">
+						<h2 class="title">Navigatation</h2>
+					</div>
+					<div class="category-widget">
+						<ul>
+							<li><a href="#python">PYTHON<span>1</span></a></li>
+                            <li><a href="#inspython" style="margin-left: 22px;">INSTALLER PYTHON<span>1.1</span></a></li>
+							<li><a href="#navigate2">OPENCV<span>2</span></a></li>
+							<li><a href="#navigate3">FACIAL<span>3</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+					<div class="n1">
+						<a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiDh-LT0bPiAhXBsKQKHZmgCZ0QFjAAegQIBhAC&url=https%3A%2F%2Fwww.python.org%2F&usg=AOvVaw0QREvGsjwHKp2GtoYvs1JH">Concervez Python</a><hr>
+						<p>La maison officielle du langage de programmation Python.</p>
+					</div>
+					<div class="n1">
+						<a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=20&cad=rja&uact=8&ved=2ahUKEwiDh-LT0bPiAhXBsKQKHZmgCZ0QFjATegQIBRAB&url=https%3A%2F%2Fwww.w3schools.com%2Fpython%2F&usg=AOvVaw3DDMaeRvoPZxdqsRK3yoWF">Apprendre Python</a><hr>
+						<p>Python peut être utilisé sur un serveur pour créer des applications Web. ... Notre outil
+							"Show Python" facilite l'apprentissage de Python, il affiche à la fois le code et le résultat.</p>
+					</div>
+					<div class="n1">
+						<a class="natt" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjrsvO707PiAhWswAIHHd9aBTUQFjACegQIDBAL&url=https%3A%2F%2Fraygun.com%2Fblog%2Fjava-vs-python%2F&usg=AOvVaw3o6iQ6y8YQMDxX30mQgmW4">Python VS Java</a><hr>
+						<p>Java vs Python en 2019. Java et Python présentent de nombreuses similitudes. ...
+							Les deux langages sont compilés en bytecode, mais Python est (généralement) compilé au
+							moment de l'exécution. Ils sont tous deux membres de la famille Algol, bien que Python
+							s'écarte plus de C / C ++ que Java</p>
+					</div>
+				</div>
+				<!-- More Sources -->
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /SECTION -->
+<hr><hr>
+<!-- section -->
+<div class="section" id="opencv">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <figure class="pull-right">
+                        <img src="./img/ocv.jpg" alt="">
+                    </figure>
+                    <h3>OpenCV : Computer Vision</h3>
+                    <p style="text-align: justify">OpenCV (pour Open Computer Vision) est une bibliothèque graphique
+                        libre, initialement développée par Intel, spécialisée dans le traitement d'images en temps réel.
+                        La société de robotique Willow Garage et la société ItSeez se sont succédé au support de cette
+                        bibliothèque. Depuis 2016 et le rachat de ItSeez par Intel, le support est de nouveau assuré
+                        par Intel. </p>
+                    <h2 id="fncocv">Fonctionnalités</h2>
+                    <p style="text-align: justify">La bibliothèque OpenCV met à disposition de nombreuses fonctionnalités
+                        très diversifiées permettant de créer des programmes partant des données brutes pour aller
+                        jusqu'à la création d'interfaces graphiques basiques. </p>
+                    <p style="text-align: justify">OpenCv peut aussi effectuer plusieurs Traitements : Traitement d'images,
+                        Traitement vidéos, Algorithmes d'apprentissages, Calculs Matriciels...</p>
+                    <h2 id="insocv">Installer OpenCV</h2>
+                    <p style="text-align: justify">Pour Installer OpenCV sous Python Cliquez sur Win R puis tapez cmd,
+                        quand terminal apparaît, tapez <b>pip install opencv-python</b></p>
+                    <figure>
+                        <img src="./img/cvi.jpg" alt="">
+                    </figure>
+                    <strong>Si vous rencontrez des problèmes lors de l'installation, notre application peut installer
+                        OpenCV et tous les modules nécessaires au premier démarrage.</strong>
+                    <p style="text-align: justify">Pour plus de details sur l'installation du OpenCv vous pouvez
+                        consulter <a href="https://www.learnopencv.com/install-opencv3-on-windows/">Ce Lein</a></p>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li>SOURCES:</li>
+                            <li><a href="https://fr.wikipedia.org/wiki/OpenCV">openCV Difinition</a></li>
+                            <li><a href="https://www.learnopencv.com/install-opencv3-on-windows/">Installation du OpenCV sous Windows</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate2" style="text-align: right;">Vers Navigation</a>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate2">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">PYTHON<span>1</span></a></li>
+                            <li><a href="#opencv">OPENCV<span>2</span></a></li>
+                            <li><a href="#fncocv" style="margin-left: 22px;">FONCTIONALITES<span>1.1</span></a></li>
+                            <li><a href="#insocv" style="margin-left: 22px;">INSTALLER OPENCV<span>1.2</span></a></li>
+                            <li><a href="#navigate3">FACIAL<span>3</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+				<!-- More Sources -->
+				<div>
+					<div class="n5">
+						<a class="natt5" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjt9dPy07PiAhVSMewKHQPGAD0QFjAAegQIABAB&url=https%3A%2F%2Fopencv.org%2F&usg=AOvVaw0nLWFztJIlbNMAYoheT9Qm">Concervez openCV</a><hr>
+						<p>Cours d'IA par OpenCV - Campagne Kickstarter. 6 mai 2019. Aperçu OpenCV.org, en partenariat
+							avec Big Vision LLC (propriétaire de LearnOpenCV.com) a ...</p>
+					</div>
+					<div class="n5">
+						<a class="natt5" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=19&cad=rja&uact=8&ved=2ahUKEwjAjuLO1LPiAhVD2aQKHfGHAe4QFjASegQIBBAB&url=https%3A%2F%2Frealpython.com%2Fpython-opencv-color-spaces%2F&usg=AOvVaw1fr_xQQo0YB7-XlF2d953i">Segmentation des Images</a><hr>
+						<p>Dans ce didacticiel d'introduction, vous apprendrez à segmenter simplement un objet à partir
+							d'une image basée sur une couleur en Python à l'aide d'OpenCV. Populaire ...</p>
+					</div>
+					<div class="n5">
+						<a class="natt5" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=2ahUKEwjr0Zj71LPiAhUI2aQKHfH0DhUQwqsBMA16BAgJEAo&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DPmZ29Vta7Vc&usg=AOvVaw0AGL7S7NaHDo_K92IivT6D">détection & Reconnaissance Faciale</a><hr>
+						<p>Ce tutoriel va vous présenter le concept de détection d'objet en Python à l'aide de
+							la bibliothèque OpenCV et comment vous pouvez l'utiliser pour ...
+						</p>
+					</div>
+				</div>
+				<!-- More Sources -->
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+<hr><hr>
+<!-- section -->
+<div class="section" id="facial">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-8">
+
+                <!-- post content -->
+                <div class="section-row">
+                    <figure class="pull-right">
+                        <img src="./img/facial.jpg" alt="">
+                    </figure>
+                    <h3>Facial : Appplication de détection et reconaissance</h3>
+                    <p style="text-align: justify">OpenCV et Python offrent de nombreuses fonctionnalités, dont la
+                        détection et la reconnaissance d'objets. Facial est une application crée par nous avec python
+                        et OpenCV pour réaliser de grandes tâches en utilisant la détection et la reconnaissance d'objets
+                        Sous la supervision et l'encadrement du Dr <strong>Ahmed Drissi el maliani</strong></p>
+                    <h2 id="insfacial">Installer Facial</h2>
+                    <p style="text-align: justify">Vous pouvez télécharger l'application facial à partir des liens source 
+                    	<a href="#downfacial">ci-dessous.</a>
+                    Après télécharger le fichier <b>FSetup.exe</b>, lancez le, la boîte de dialogue suivant va être affichée</p>
+                    <figure>
+                        <img src="./img/insfacial.jpg" alt="">
+                    </figure>
+                    <p style="text-align: justify">Clicker sur Suivant et lancer l'installation, après quelques minutes
+                        l'application sera installée et un raccourci sera créé sur votre bureau</p>
+                    <h2 id="exefacial">Exécuter Facial</h2>
+                    <p style="text-align: justify">Allez sur votre bureau et ouvrez l'application facial.exe</p>
+                    <figure>
+                        <img src="./img/exefc.jpg" alt="">
+                    </figure>
+                    <p style="text-align: justify">L'application se lancera pour la première fois et commencera à
+                        télécharger tous les packages depuis un terminale</p><br>
+                    <figure>
+                        <img src="./img/inscns.jpg" alt="">
+                    </figure>
+                    <b></b><br>
+                    <p id="downfacial" style="text-align: justify">Le processus d'installation peut prendre un certain temps avant qu'il
+                        télécharge et copie toutes les données dans site-packages du dossier python, puis
+                        l'application serait prête à démarrer.</p>
+                </div>
+                <!-- /post content -->
+
+                <!-- post tags -->
+                <div class="section-row">
+                    <div class="post-tags">
+                        <ul>
+                            <li id="downrapp">SOURCES:</li>
+                            <a href="data/application/FSetup.exe"><figure><img class="f" src="img/header-1.jpg"></figure></a>
+                            <li><a href="data/application/FSetup.exe">Télécharger facial</a></li>
+							<li><a href="https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe">Télécharger Python 3.7</a></li>
+                            <li><a href="http://www.wampserver.com/#wampserver-64-bits-php-5-6-25-php-7">Télécharger WampServer</a></li>
+                            <li><a href="data/Facial%20WebServer.rar">Télécharger Facial WebServer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /post tags -->
+                <a href="#navigate3" style="text-align: right;">Vers Navigation</a><br>
+                <a href="conceptions.html" style="text-align: right;">Aller vers Conception</a><br>
+                <a href="chapters.html" style="text-align: right;">Aller vers Les Chapitres</a><br>
+                <a href="#" style="text-align: right;">Vers Le Haut</a><br>
+                <br><br>
+            </div>
+            <div class="col-md-4">
+                <!-- category widget -->
+                <div class="aside-widget" id="navigate3">
+                    <div class="section-title">
+                        <h2 class="title">Navigatation</h2>
+                    </div>
+                    <div class="category-widget">
+                        <ul>
+                            <li><a href="#navigate">PYTHON<span>1</span></a></li>
+                            <li><a href="#navigate2">OPENCV<span>2</span></a></li>
+                            <li><a href="#facial">FACIAL<span>3</span></a></li>
+                            <li><a href="#insfacial" style="margin-left: 22px;">INSTALLER FACIAL<span>1.1</span></a></li>
+                            <li><a href="#exefacial" style="margin-left: 22px;">EXCECUTER FACIAL<span>1.2</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /category widget -->
+				<!-- More Sources -->
+				<!-- More Sources -->
+				<div>
+					<h3 style="text-align: center">Les bibliothèques nécessaires</h3>
+					<br><br>
+					<div class="n3">
+						<a class="natt3" href="https://pypi.org/project/opencv-python/">OpenCV</a><hr>
+						<p>Le paquetage principale pour la fonctionnalité d'application</p>
+					</div>
+					<div class="n3">
+						<a class="natt3" href="https://pypi.org/project/numpy/">Numpy</a><hr>
+						<p>Le paquetage fondamental pour l'informatique matricielle avec Python</p>
+					</div>
+					<div class="n3">
+						<a class="natt3" href="https://pypi.org/project/matplotlib/">Matplotlib</a><hr>
+						<p>Paquet de traçage en python</p>
+					</div>
+					<div class="n3">
+						<a class="natt3" href="https://pypi.org/project/imutils/">Imutils</a><hr>
+						<p>Une série de fonctions pratiques permettant de simplifier les fonctions de traitement
+							d’images telles que la traduction, la rotation, le redimensionnement, la squelettisation,
+							l’affichage des images Matplotlib, le tri des contours, la détection des contours, et bien
+							plus encore avec OpenCV et Python 2.7 et Python 3.</p>
+					</div>
+					<div class="n3">
+						<a class="natt3" href="https://pypi.org/project/mysql-connector-python/">MySQL Connector</a><hr>
+						<p>Le paquetage fondamental pour l'informatique matricielle avec Python</p>
+					</div>
+					<br><br>
+					<p style="text-align: justify">Si une erreur survient lors de la tentative de téléchargement et
+						d'installation de l'un de ces packages, essayez de l'installer manuellement à l'aide de la
+						commande pip install</p>
+					<iframe width="360" height="280" src="https://www.youtube.com/embed/iM9pp3VZMJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br><hr><br><br><br><br><br><br><br><br><br><br>
+					<h3 style="text-align: center">Téléchargement du Rapport</h3>
+					<hr>
+					<p style="text-align: center"><a href="data/report.pdf"><img src="img/footer.PNG"> </a></p>
+					<br>
+					<p style="text-align: right"><a href="data/report.pdf" class="btn btn-lg btn-primary">Télécharger Le PDF</a></p>
+				</div>
+				<!-- More Sources -->
+				<!-- More Sources -->
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+<a href="#" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>
+<!-- jQuery Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/main.js"></script>
+<style type="text/css">
+	.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	}
+	.n1
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #FF5F00;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt
+	{
+		text-decoration: none;
+		color: #FF5F00;
+	}
+	.n2
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #1FA100;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt2
+	{
+		text-decoration: none;
+		color:#1FA100;
+	}
+	.n3
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #8100FF;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt3
+	{
+		text-decoration: none;
+		color:#8100FF;
+	}
+	.n4
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #D30055;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt4
+	{
+		text-decoration: none;
+		color:#D30055;
+	}
+	.n5
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #007DF3;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt5
+	{
+		text-decoration: none;
+		color:#007DF3 ;
+	}
+	.n6
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #724104;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt6
+	{
+		text-decoration: none;
+		color:#724104;
+	}
+	.n7
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #00C7AB;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt7
+	{
+		text-decoration: none;
+		color:#00C7AB;
+	}
+	.n8
+	{
+		background-color: white;
+		box-shadow: 0px 2px 5px #535353;
+		box-sizing: padding-box;
+		border-radius: 5px;
+		padding :5px;
+		margin: 19px;
+		color: black;
+		text-align:center;
+	}
+	.natt8
+	{
+		text-decoration: none;
+		color:#535353;
+	}
+</style>
+<hr>
+<div class="post-nav">
+	<footer class="panel-footer">
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			<a href="mailto:alaouiismaili28@gmail.com">By Ismaili Alaoui Hamza</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+</div>
+</body>
+
+</html>
